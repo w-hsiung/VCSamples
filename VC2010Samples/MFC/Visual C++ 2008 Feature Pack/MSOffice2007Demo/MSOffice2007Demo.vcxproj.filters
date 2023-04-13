@@ -232,9 +232,6 @@
     <None Include="res\table.bmp">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="res\tasks.bmp">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="res\Toolbar.bmp">
       <Filter>Resource Files</Filter>
     </None>
@@ -289,6 +286,7 @@
     <None Include="res\WriteParagraph.bmp">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="ReadMe.htm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CntrItem.h">
@@ -339,5 +337,10 @@
     <ClInclude Include="TaskPane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\tasks.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
