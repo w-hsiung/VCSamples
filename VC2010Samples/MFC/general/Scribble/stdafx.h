@@ -11,6 +11,9 @@
 // See these sources for detailed information regarding the
 // Microsoft Foundation Classes product.
 
+#define WINVER          0x0601  // Win7
+#define _WIN32_WINNT    0x0601  // Win7
+
 #include <afxwin.h>         // MFC core and standard components
 #include <afxext.h>         // MFC extensions
 #include <afxtempl.h>		// MFC templates
