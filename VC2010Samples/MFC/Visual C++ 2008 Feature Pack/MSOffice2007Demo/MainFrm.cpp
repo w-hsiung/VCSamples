@@ -1761,8 +1761,8 @@ void CMainFrame::CreateStyleList()
 	m_arStyles.RemoveAll();
 	m_arStyleSets.RemoveAll();
 
-	m_arStyles.Add( _T("¶ Normal"));
-	m_arStyles.Add( _T("¶ No Spacing"));
+	m_arStyles.Add( _T("Â¶ Normal"));
+	m_arStyles.Add( _T("Â¶ No Spacing"));
 	m_arStyles.Add( _T("Heading 1"));
 	m_arStyles.Add( _T("Heading 2"));
 	m_arStyles.Add( _T("Heading 3"));
@@ -1777,8 +1777,8 @@ void CMainFrame::CreateStyleList()
 	m_arStyles.Add( _T("Subtle Reference"));
 	m_arStyles.Add( _T("Intense Reference"));
 	m_arStyles.Add( _T("Book Title"));
-	m_arStyles.Add( _T("¶ List Paragraph"));
-	m_arStyles.Add( _T("¶ Caption"));
+	m_arStyles.Add( _T("Â¶ List Paragraph"));
+	m_arStyles.Add( _T("Â¶ Caption"));
 
 	m_arStyleSets.Add(_T("Default(Black and White)"));
 	m_arStyleSets.Add(_T("Elegant"));
