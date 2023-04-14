@@ -1767,6 +1767,7 @@
     <None Include="res\References.bmp" />
     <None Include="res\ReferencesLarge.bmp" />
     <None Include="res\refresh.ico" />
+    <None Include="res\ribbon1.mfcribbon-ms" />
     <None Include="res\shape1.bmp" />
     <None Include="res\Shape2.bmp" />
     <None Include="res\Shape3.bmp" />
@@ -1824,6 +1825,22 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unicode Release CLR|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Unicode Release CLR|X64'">true</ExcludedFromBuild>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\HeaderPat_1.bmp" />
+    <Image Include="res\HeaderPat_2.bmp" />
+    <Image Include="res\HeaderPat_3.bmp" />
+    <Image Include="res\HeaderPat_4.bmp" />
+    <Image Include="res\info.bmp" />
+    <Image Include="res\multi.bmp" />
+    <Image Include="res\position1.bmp" />
+    <Image Include="res\position2.bmp" />
+    <Image Include="res\Review.bmp" />
+    <Image Include="res\ReviewLarge.bmp" />
+    <Image Include="res\ThemeColors.bmp" />
+    <Image Include="res\ThemeEffects.bmp" />
+    <Image Include="res\ThemeFonts.bmp" />
+    <Image Include="res\ThemeThemes.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

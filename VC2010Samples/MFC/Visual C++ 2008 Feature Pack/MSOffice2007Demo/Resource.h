@@ -1,5 +1,5 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Developer Studio generated include file.
+// Microsoft Visual C++ generated include file.
 // Used by MSOffice2007Demo.rc
 //
 #define IDB_BUTTONS                     100
@@ -117,6 +117,7 @@
 #define IDB_THEME_THEMES                224
 #define IDB_THEME_EFFECTS               225
 #define IDB_THEME_FONTS                 227
+#define IDR_RIBBON1                     228
 #define IDD_ABOUTBOX                    999
 #define IDC_SHOW_FLOATY                 1005
 #define IDC_SHOW_DEV_TAB                1006
@@ -128,6 +129,8 @@
 #define IDC_PRODUCT                     1010
 #define IDC_BANER                       1010
 #define IDC_SUPPORT                     1011
+#define ID_FONT_NOT_FOUND               32217
+#define ID_VIEW_ARRANGEALL              32218
 #define ID_PAGELAYOUT_EFFECTS_ACADEMIC  32770
 #define ID_REFERENCES_INSERTCITATION_ADDNEWPLACEHOLDER 32771
 #define ID_REFERENCES_INSERTCITATION_ADDNEWSOURCE 32772
@@ -343,7 +346,7 @@
 #define ID_VIEW_APPLOOK_2007_2          32987
 #define ID_VIEW_APPLOOK_2007_3          32988
 #define ID_VIEW_APPLOOK_2007_4          32989
-#define ID_VIEW_APPLOOK_WIN7          	32990
+#define ID_VIEW_APPLOOK_WIN7            32990
 #define ID_VIEW_COMPARE                 32991
 #define ID_VIEW_CUSTOMIZE               32992
 #define ID_VIEW_DOCUMENTMAP             32993
@@ -548,21 +551,19 @@
 #define ID_PAGELAYOUT_PAGESETUP_SIZE_MOREPAPERSIZES 33210
 #define ID_TABLE_HEADERROW              33211
 #define ID_TABLE_TOTALROW               33212
+#define ID_BUTTON2                      33212
 #define ID_TABLE_BANDEDROWS             33213
 #define ID_TABLE_FIRSTCOLUMN            33214
 #define ID_TABLE_LASTCOLUMN             33215
 #define ID_TABLE_BANDEDCOLUMNS          33216
-#define ID_FONT_NOT_FOUND				32217
-#define ID_VIEW_ARRANGEALL              32218
-
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
-#define _APS_NEXT_RESOURCE_VALUE        228
-#define _APS_NEXT_COMMAND_VALUE         33212
+#define _APS_NEXT_RESOURCE_VALUE        229
+#define _APS_NEXT_COMMAND_VALUE         33213
 #define _APS_NEXT_CONTROL_VALUE         1011
 #define _APS_NEXT_SYMED_VALUE           1101
 #endif

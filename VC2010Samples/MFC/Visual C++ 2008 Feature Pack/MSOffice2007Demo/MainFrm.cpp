@@ -193,6 +193,9 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		return -1;      // fail to create
 	};
 
+    //m_wndRibbonBar.SaveToXMLFile(_T("RibbonOutput.xml"));
+    m_wndRibbonBar.LoadFromResource(IDR_RIBBON1);
+
 	if (!CreateStatusBar())
 	{
 		TRACE0("Failed to create status bar\n");

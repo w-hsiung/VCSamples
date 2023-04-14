@@ -1,4 +1,4 @@
-//Microsoft Developer Studio generated resource script.
+// Microsoft Visual C++ generated resource script.
 //
 #include "resource.h"
 
@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-#pragma code_page(65001)
-#endif //_WIN32
+#pragma code_page(1252)
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -27,18 +25,18 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE 
 BEGIN
     "#include ""afxres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE 
 BEGIN
     "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
     "\r\n"
@@ -61,6 +59,7 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
+
 /////////////////////////////////////////////////////////////////////////////
 //
 // Icon
@@ -68,87 +67,155 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MSOffice2007Demo.ico"
-IDI_REFRESH             ICON    DISCARDABLE     "res\\refresh.ico"
-IDR_MSTYPE              ICON    DISCARDABLE     "res\\MSOffice2007DemoDoc.ico"
-IDI_SPELL               ICON    DISCARDABLE     "res\\spell.ico"
+IDR_MAINFRAME           ICON                    "res\\MSOffice2007Demo.ico"
+
+IDI_REFRESH             ICON                    "res\\refresh.ico"
+
+IDR_MSTYPE              ICON                    "res\\MSOffice2007DemoDoc.ico"
+
+IDI_SPELL               ICON                    "res\\spell.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Bitmap
 //
 
-IDR_FONT                BITMAP  MOVEABLE PURE   "res\\WriteFont.bmp"
-IDR_PARAGRAPH           BITMAP  DISCARDABLE     "res\\WriteParagraph.bmp"
-IDB_VIEW                BITMAP  DISCARDABLE     "res\\View.bmp"
-IDB_VIEWLARGE           BITMAP  DISCARDABLE     "res\\ViewLarge.bmp"
-IDB_WRITE               BITMAP  DISCARDABLE     "res\\Write.bmp"
-IDB_WRITELARGE          BITMAP  DISCARDABLE     "res\\WriteLarge.bmp"
-IDB_MAILINGS            BITMAP  DISCARDABLE     "res\\Mailings.bmp"
-IDB_MAILINGSLARGE       BITMAP  DISCARDABLE     "res\\MailingsLarge.bmp"
-IDB_INSERT              BITMAP  DISCARDABLE     "res\\Insert.bmp"
-IDB_INSERTLARGE         BITMAP  DISCARDABLE     "res\\InsertLarge.bmp"
-IDB_PAGELAYOUT          BITMAP  DISCARDABLE     "res\\PageLayout.bmp"
-IDB_PAGELAYOUTLARGE     BITMAP  DISCARDABLE     "res\\PageLayoutLarge.bmp"
-IDB_REFERENCES          BITMAP  DISCARDABLE     "res\\References.bmp"
-IDB_REFERENCESLARGE     BITMAP  DISCARDABLE     "res\\ReferencesLarge.bmp"
-IDB_BUTTONS             BITMAP  DISCARDABLE     "res\\Buttons.bmp"
-IDB_MAIN                BITMAP  DISCARDABLE     "res\\main.bmp"
-IDB_TOOLTIP_FONTDLG     BITMAP  DISCARDABLE     "res\\tooltip-fontdlg.bmp"
-IDB_TOOLTIP_PARAGRAPH   BITMAP  DISCARDABLE     "res\\tooltip-paragraph.bmp"
-IDB_TOOLTIP_CLIPBOARD   BITMAP  DISCARDABLE     "res\\tooltip-clipboard.bmp"
-IDB_FILELARGE           BITMAP  DISCARDABLE     "res\\filelarge.bmp"
-IDB_FILESMALL           BITMAP  DISCARDABLE     "res\\filesmall.bmp"
-IDB_VIEWPAT_1           BITMAP  DISCARDABLE     "res\\ViewPat_1.BMP"
-IDB_VIEWPAT_2           BITMAP  DISCARDABLE     "res\\ViewPat_2.bmp"
-IDB_VIEWPAT_3           BITMAP  DISCARDABLE     "res\\ViewPat_3.bmp"
-IDB_VIEWPAT_4           BITMAP  DISCARDABLE     "res\\ViewPat_4.bmp"
-IDB_HEADERPAT_1         BITMAP  DISCARDABLE     "res\\HeaderPat_1.bmp"
-IDB_HEADERPAT_2         BITMAP  DISCARDABLE     "res\\HeaderPat_2.bmp"
-IDB_HEADERPAT_3         BITMAP  DISCARDABLE     "res\\HeaderPat_3.bmp"
-IDB_HEADERPAT_4         BITMAP  DISCARDABLE     "res\\HeaderPat_4.bmp"
-IDB_STYLES              BITMAP  DISCARDABLE     "res\\styles.bmp"
-IDB_SHAPE1              BITMAP  DISCARDABLE     "res\\shape1.bmp"
-IDB_SHAPE2              BITMAP  DISCARDABLE     "res\\Shape2.bmp"
-IDB_SHAPE3              BITMAP  DISCARDABLE     "res\\Shape3.bmp"
-IDB_SHAPE4              BITMAP  DISCARDABLE     "res\\Shape4.bmp"
-IDB_SHAPE5              BITMAP  DISCARDABLE     "res\\Shape5.bmp"
-IDB_SHAPE6              BITMAP  DISCARDABLE     "res\\Shape6.bmp"
-IDB_SHAPE7              BITMAP  DISCARDABLE     "res\\Shape7.bmp"
-IDB_PICTURE             BITMAP  DISCARDABLE     "res\\picture.bmp"
-IDB_CHART               BITMAP  DISCARDABLE     "res\\chart.bmp"
-IDB_TABLE               BITMAP  DISCARDABLE     "res\\table.bmp"
-IDB_PICTURE_FORMAT      BITMAP  DISCARDABLE     "res\\PictureFormat.bmp"
-IDB_PICTURE_FORMATLARGE BITMAP  DISCARDABLE     "res\\PictureFormatLarge.bmp"
-IDB_CHART_DESIGN        BITMAP  DISCARDABLE     "res\\ChartDesign.bmp"
-IDB_CHART_DESIGNLARGE   BITMAP  DISCARDABLE     "res\\ChartDesignLarge.bmp"
-IDB_CHART_LAYOUT        BITMAP  DISCARDABLE     "res\\ChartLayout.bmp"
-IDB_CHART_LAYOUTLARGE   BITMAP  DISCARDABLE     "res\\ChartLayoutLarge.bmp"
-IDB_CHART_FORMAT        BITMAP  DISCARDABLE     "res\\ChartFormat.bmp"
-IDB_CHART_FORMATLARGE   BITMAP  DISCARDABLE     "res\\ChartFormatLarge.bmp"
-IDB_LAYOUT              BITMAP  DISCARDABLE     "res\\layout.bmp"
-IDB_SPELL               BITMAP  DISCARDABLE     "res\\spell.bmp"
-IDB_TOOLTIP_MAIN        BITMAP  DISCARDABLE     "res\\tooltip-main.bmp"
-IDB_BULLETS             BITMAP  DISCARDABLE     "res\\bullets.bmp"
-IDB_NUM                 BITMAP  DISCARDABLE     "res\\num.bmp"
-IDB_OPTIONS             BITMAP  DISCARDABLE     "res\\options.bmp"
-IDB_INFO                BITMAP  DISCARDABLE     "res\\info.bmp"
-IDB_MULTI               BITMAP  DISCARDABLE     "res\\multi.bmp"
-IDB_POSITION_2          BITMAP  DISCARDABLE     "res\\position2.bmp"
-IDB_POSITION_1          BITMAP  DISCARDABLE     "res\\position1.bmp"
-IDB_REVIEW              BITMAP  DISCARDABLE     "res\\Review.bmp"
-IDB_REVIEWLARGE         BITMAP  DISCARDABLE     "res\\ReviewLarge.bmp"
-IDB_THEME_COLORS        BITMAP  DISCARDABLE     "res\\ThemeColors.bmp"
-IDB_THEME_THEMES        BITMAP  DISCARDABLE     "res\\ThemeThemes.bmp"
-IDB_THEME_EFFECTS       BITMAP  DISCARDABLE     "res\\ThemeEffects.bmp"
-IDB_THEME_FONTS         BITMAP  DISCARDABLE     "res\\ThemeFonts.bmp"
+IDR_FONT                BITMAP                  "res\\WriteFont.bmp"
+
+IDR_PARAGRAPH           BITMAP                  "res\\WriteParagraph.bmp"
+
+IDB_VIEW                BITMAP                  "res\\View.bmp"
+
+IDB_VIEWLARGE           BITMAP                  "res\\ViewLarge.bmp"
+
+IDB_WRITE               BITMAP                  "res\\Write.bmp"
+
+IDB_WRITELARGE          BITMAP                  "res\\WriteLarge.bmp"
+
+IDB_MAILINGS            BITMAP                  "res\\Mailings.bmp"
+
+IDB_MAILINGSLARGE       BITMAP                  "res\\MailingsLarge.bmp"
+
+IDB_INSERT              BITMAP                  "res\\Insert.bmp"
+
+IDB_INSERTLARGE         BITMAP                  "res\\InsertLarge.bmp"
+
+IDB_PAGELAYOUT          BITMAP                  "res\\PageLayout.bmp"
+
+IDB_PAGELAYOUTLARGE     BITMAP                  "res\\PageLayoutLarge.bmp"
+
+IDB_REFERENCES          BITMAP                  "res\\References.bmp"
+
+IDB_REFERENCESLARGE     BITMAP                  "res\\ReferencesLarge.bmp"
+
+IDB_BUTTONS             BITMAP                  "res\\Buttons.bmp"
+
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+
+IDB_TOOLTIP_FONTDLG     BITMAP                  "res\\tooltip-fontdlg.bmp"
+
+IDB_TOOLTIP_PARAGRAPH   BITMAP                  "res\\tooltip-paragraph.bmp"
+
+IDB_TOOLTIP_CLIPBOARD   BITMAP                  "res\\tooltip-clipboard.bmp"
+
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+
+IDB_VIEWPAT_1           BITMAP                  "res\\ViewPat_1.BMP"
+
+IDB_VIEWPAT_2           BITMAP                  "res\\ViewPat_2.bmp"
+
+IDB_VIEWPAT_3           BITMAP                  "res\\ViewPat_3.bmp"
+
+IDB_VIEWPAT_4           BITMAP                  "res\\ViewPat_4.bmp"
+
+IDB_HEADERPAT_1         BITMAP                  "res\\HeaderPat_1.bmp"
+
+IDB_HEADERPAT_2         BITMAP                  "res\\HeaderPat_2.bmp"
+
+IDB_HEADERPAT_3         BITMAP                  "res\\HeaderPat_3.bmp"
+
+IDB_HEADERPAT_4         BITMAP                  "res\\HeaderPat_4.bmp"
+
+IDB_STYLES              BITMAP                  "res\\styles.bmp"
+
+IDB_SHAPE1              BITMAP                  "res\\shape1.bmp"
+
+IDB_SHAPE2              BITMAP                  "res\\Shape2.bmp"
+
+IDB_SHAPE3              BITMAP                  "res\\Shape3.bmp"
+
+IDB_SHAPE4              BITMAP                  "res\\Shape4.bmp"
+
+IDB_SHAPE5              BITMAP                  "res\\Shape5.bmp"
+
+IDB_SHAPE6              BITMAP                  "res\\Shape6.bmp"
+
+IDB_SHAPE7              BITMAP                  "res\\Shape7.bmp"
+
+IDB_PICTURE             BITMAP                  "res\\picture.bmp"
+
+IDB_CHART               BITMAP                  "res\\chart.bmp"
+
+IDB_TABLE               BITMAP                  "res\\table.bmp"
+
+IDB_PICTURE_FORMAT      BITMAP                  "res\\PictureFormat.bmp"
+
+IDB_PICTURE_FORMATLARGE BITMAP                  "res\\PictureFormatLarge.bmp"
+
+IDB_CHART_DESIGN        BITMAP                  "res\\ChartDesign.bmp"
+
+IDB_CHART_DESIGNLARGE   BITMAP                  "res\\ChartDesignLarge.bmp"
+
+IDB_CHART_LAYOUT        BITMAP                  "res\\ChartLayout.bmp"
+
+IDB_CHART_LAYOUTLARGE   BITMAP                  "res\\ChartLayoutLarge.bmp"
+
+IDB_CHART_FORMAT        BITMAP                  "res\\ChartFormat.bmp"
+
+IDB_CHART_FORMATLARGE   BITMAP                  "res\\ChartFormatLarge.bmp"
+
+IDB_LAYOUT              BITMAP                  "res\\layout.bmp"
+
+IDB_SPELL               BITMAP                  "res\\spell.bmp"
+
+IDB_TOOLTIP_MAIN        BITMAP                  "res\\tooltip-main.bmp"
+
+IDB_BULLETS             BITMAP                  "res\\bullets.bmp"
+
+IDB_NUM                 BITMAP                  "res\\num.bmp"
+
+IDB_OPTIONS             BITMAP                  "res\\options.bmp"
+
+IDB_INFO                BITMAP                  "res\\info.bmp"
+
+IDB_MULTI               BITMAP                  "res\\multi.bmp"
+
+IDB_POSITION_2          BITMAP                  "res\\position2.bmp"
+
+IDB_POSITION_1          BITMAP                  "res\\position1.bmp"
+
+IDB_REVIEW              BITMAP                  "res\\Review.bmp"
+
+IDB_REVIEWLARGE         BITMAP                  "res\\ReviewLarge.bmp"
+
+IDB_THEME_COLORS        BITMAP                  "res\\ThemeColors.bmp"
+
+IDB_THEME_THEMES        BITMAP                  "res\\ThemeThemes.bmp"
+
+IDB_THEME_EFFECTS       BITMAP                  "res\\ThemeEffects.bmp"
+
+IDB_THEME_FONTS         BITMAP                  "res\\ThemeFonts.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Toolbar
 //
 
-IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+IDR_MAINFRAME TOOLBAR 16, 15
 BEGIN
     BUTTON      ID_FILE_NEW
     BUTTON      ID_FILE_OPEN
@@ -163,7 +230,7 @@ BEGIN
     BUTTON      ID_APP_ABOUT
 END
 
-IDR_FONT TOOLBAR DISCARDABLE  16, 16
+IDR_FONT TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_FONT_GROWFONT
     BUTTON      ID_FONT_SHRINK
@@ -182,7 +249,7 @@ BEGIN
     BUTTON      ID_FONT_COLOR
 END
 
-IDR_PARAGRAPH TOOLBAR DISCARDABLE  16, 16
+IDR_PARAGRAPH TOOLBAR 16, 16
 BEGIN
     BUTTON      ID_PARA_BULLETS
     BUTTON      ID_PARA_NUMBERING
@@ -212,7 +279,7 @@ END
 // Menu
 //
 
-IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+IDR_MAINFRAME MENU
 BEGIN
     POPUP "File"
     BEGIN
@@ -226,9 +293,7 @@ BEGIN
             MENUITEM "&Word Document",              ID_FILE_SAVE_AS_DOCUMENT
             MENUITEM "Word &Template",              ID_FILE_SAVE_AS_TEMPLATE
             MENUITEM "Word &97-2003 Document",      ID_FILE_SAVE_AS_DOCUMENT_OLD
-
-            MENUITEM "&Find add-ins for other file formats", 
-                                                    ID_FILE_SAVE_AS_ADDINS
+            MENUITEM "&Find add-ins for other file formats", ID_FILE_SAVE_AS_ADDINS
             MENUITEM "&Other Formats",              ID_FILE_SAVE_AS_OTHER
         END
         MENUITEM SEPARATOR
@@ -244,15 +309,11 @@ BEGIN
             MENUITEM "Pr&epare",                    ID_FILE_PREPARE
             MENUITEM SEPARATOR
             MENUITEM "&Properties",                 ID_FILE_PREPARE_PROPERTIES
-
             MENUITEM "&Inspect Document",           ID_FILE_PREPARE_INSPECT
             MENUITEM "&Encrypt Document",           ID_FILE_PREPARE_ENCRYPT
             MENUITEM "Add a Digital &Signature",    ID_FILE_PREPARE_ADD_SIGNATURE
-
             MENUITEM "Mark as &Final",              ID_FILE_PREPARE_MARK_AS_FINAL
-
             MENUITEM "Run &Compatibility Checker",  ID_FILE_PREPARE_RUN_CHECKER
-
         END
         POPUP "&Send"
         BEGIN
@@ -267,9 +328,7 @@ BEGIN
             MENUITEM SEPARATOR
             MENUITEM "&Blog",                       ID_FILE_PUBLISH_BLOG
             MENUITEM "&Document Management Server", ID_FILE_PUBLISH_DOCMANAGE_SERVER
-
             MENUITEM "&Create Document Workspace",  ID_FILE_PUBLISH_CREATE_DOCWORKSPACE
-
         END
         MENUITEM SEPARATOR
         MENUITEM "&Close",                      ID_FILE_CLOSE
@@ -291,9 +350,7 @@ BEGIN
             BEGIN
                 MENUITEM "&Paste",                      ID_EDIT_PASTE
                 MENUITEM "Paste &Special...",           ID_EDIT_PASTE_SPECIAL
-
                 MENUITEM "Paste as Hyperlink",          ID_EDIT_PASTE_HYPERLINK
-
             END
             MENUITEM "Cu&t",                        ID_EDIT_CUT
             MENUITEM "&Copy",                       ID_EDIT_COPY
@@ -326,15 +383,10 @@ BEGIN
                 MENUITEM "Change Case",                 ID_FONT_CHANGECASE
                 MENUITEM SEPARATOR
                 MENUITEM "&Sentence case",              ID_FONT_CASE_SENTENCE
-
                 MENUITEM "&lowercase",                  ID_FONT_CASE_LOWERCASE
-
                 MENUITEM "&UPPERCASE",                  ID_FONT_CASE_UPPERCASE
-
                 MENUITEM "&Capitalize Each Word",       ID_FONT_CASE_CAPITALIZE
-
                 MENUITEM "&tOGGLE cASE",                ID_FONT_CASE_TOGGLECASE
-
             END
             MENUITEM SEPARATOR
             MENUITEM "Highlight Color",             ID_FONT_TEXTHIGHLIGHT
@@ -349,32 +401,23 @@ BEGIN
                 MENUITEM "Bullets",                     ID_PARA_BULLETS
                 MENUITEM SEPARATOR
                 MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL
-
                 MENUITEM "&Define New Bullet...",       ID_PARA_DEFINENEWBULLET
-
             END
             POPUP "Numbering"
             BEGIN
                 MENUITEM "Numbering",                   ID_PARA_NUMBERING
                 MENUITEM SEPARATOR
                 MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL
-
                 MENUITEM "&Define New Number Format",   ID_PARA_DEFINENEWNUMBERFORMAT
-
                 MENUITEM "Set Numbering &Value...",     ID_PARA_SETNUMBERINGVALUE
-
             END
             POPUP "Multilevel List"
             BEGIN
                 MENUITEM "Multilevel List",             ID_PARA_MULTILEVEL
                 MENUITEM SEPARATOR
                 MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL
-
-                MENUITEM "&Define New Multilevel List...", 
-                                                        ID_PARA_DEFINENEWMULTILEVELLIST
-
+                MENUITEM "&Define New Multilevel List...", ID_PARA_DEFINENEWMULTILEVELLIST
                 MENUITEM "Define New &List Style...",   ID_PARA_DEFINENEWLISTSTYLE
-
             END
             MENUITEM SEPARATOR
             MENUITEM "Decrease Indent",             ID_PARA_DECREASEINDENT
@@ -400,13 +443,9 @@ BEGIN
                 MENUITEM "2.5",                         ID_PARA_LINESPACING5
                 MENUITEM "3.0",                         ID_PARA_LINESPACING6
                 MENUITEM "Line Spacing Options...",     ID_PARA_LINESPACINGOPTIONS
-
                 MENUITEM SEPARATOR
                 MENUITEM "Add Space &Before Paragraph", ID_PARA_LINESPACINGBEFORE
-
-                MENUITEM "Remove Space &After Paragraph", 
-                                                        ID_PARA_LINESPACINGAFTER
-
+                MENUITEM "Remove Space &After Paragraph", ID_PARA_LINESPACINGAFTER
             END
             MENUITEM SEPARATOR
             MENUITEM "Shading",                     ID_PARA_SHADING
@@ -415,38 +454,25 @@ BEGIN
                 MENUITEM "Border",                      ID_PARA_BORDER
                 MENUITEM SEPARATOR
                 MENUITEM "&Bottom Border",              ID_BORDERS_BOTTOMBORDER
-
                 MENUITEM "To&p Border",                 ID_BORDERS_TOPBORDER
                 MENUITEM "&Left Border",                ID_BORDERS_LEFTBORDER
-
                 MENUITEM "&Right Border",               ID_BORDERS_RIGHTBORDER
-
                 MENUITEM SEPARATOR
                 MENUITEM "&No Border",                  ID_BORDERS_NOBORDER
                 MENUITEM "&All Borders",                ID_BORDERS_ALLBORDERS
-
                 MENUITEM "Out&side Borders",            ID_BORDERS_OUTSIDEBORDERS
-
                 MENUITEM "&Inside Borders",             ID_BORDERS_INSIDEBORDERS
-
                 MENUITEM SEPARATOR
                 MENUITEM "Inside &Horizontal Border",   ID_BORDERS_INSIDEHORIZONTALBORDER
-
                 MENUITEM "Inside &Vertical Border",     ID_BORDERS_INSIDEVERTICALBORDER
-
                 MENUITEM "Diagonal Do&wn Border",       ID_BORDERS_DIAGONALDOWNBORDER
-
                 MENUITEM "Diagonal &Up Border",         ID_BORDERS_DIAGONALUPBORDER
-
                 MENUITEM SEPARATOR
                 MENUITEM "Hori&zontal Line",            ID_BORDERS_HORIZONTALLINE
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Draw Table",                 ID_TABLE_DRAWTABLE
                 MENUITEM "View &Gridlines",             ID_BORDERS_VIEWGRIDLINES
-
                 MENUITEM "B&orders and Shading...",     ID_BORDERS_BORDERSANDSHADING
-
             END
         END
         POPUP "Styles"
@@ -457,36 +483,29 @@ BEGIN
             BEGIN
                 MENUITEM "Quick Styles",                ID_WRITE_QUICKSTYLES
                 MENUITEM SEPARATOR
-                MENUITEM "Save Selection as a New &Quick Style...", 
-                                                        ID_WRITE_SAVESTYLE
+                MENUITEM "Save Selection as a New &Quick Style...", ID_WRITE_SAVESTYLE
                 MENUITEM "&Clear Formatting",           ID_WRITE_CLEARFORMATTING
-
                 MENUITEM "&Apply Styles...",            ID_WRITE_APPLYSTYLES
             END
             POPUP "Change Styles"
             BEGIN
                 MENUITEM "Change Styles",               ID_WRITE_CHANGESTYLES
-
                 MENUITEM SEPARATOR
                 POPUP "Style Set"
                 BEGIN
                     MENUITEM "St&yle Set",                  ID_STYLECHANGE_STYLESET
-
                     MENUITEM SEPARATOR
                 END
                 POPUP "Colors"
                 BEGIN
                     MENUITEM "&Colors",                     ID_STYLECHANGE_COLORS
-
                     MENUITEM SEPARATOR
                 END
                 MENUITEM SEPARATOR
                 MENUITEM "&Set as Default",             ID_STYLECHANGE_SETDEFAULT
-
                 POPUP "Fonts"
                 BEGIN
                     MENUITEM "&Fonts",                      ID_STYLECHANGE_FONTS
-
                     MENUITEM SEPARATOR
                 END
             END
@@ -505,9 +524,7 @@ BEGIN
                 MENUITEM SEPARATOR
                 MENUITEM "Select &All",                 ID_EDIT_SELECT_ALL
                 MENUITEM "Select &Objects",             ID_EDIT_SELECTOBJECTS
-
-                MENUITEM "&Select Text with Similar Formatting", 
-                                                        ID_EDIT_SELECTFORMAT
+                MENUITEM "&Select Text with Similar Formatting", ID_EDIT_SELECTFORMAT
             END
         END
         MENUITEM SEPARATOR
@@ -523,10 +540,7 @@ BEGIN
                 MENUITEM "Cover Page",                  ID_INSERT_COVERPAGE
                 MENUITEM SEPARATOR
                 MENUITEM "&Remove Current Cover Page",  ID_INSERT_REMOVECURRENTCOVERPAGE
-
-                MENUITEM "&Save Selection to Cover Page Gallery...", 
-                                                        ID_INSERT_SAVETOCOVERPAGEGALLERY
-
+                MENUITEM "&Save Selection to Cover Page Gallery...", ID_INSERT_SAVETOCOVERPAGEGALLERY
             END
             MENUITEM "Black Page",                  ID_INSERT_BLACKPAGE
             MENUITEM "Page Break",                  ID_INSERT_PAGEBREAK
@@ -540,9 +554,7 @@ BEGIN
                 MENUITEM "&Insert Table...",            ID_TABLE_TABLE
                 MENUITEM "&Draw Table",                 ID_TABLE_DRAWTABLE
                 MENUITEM "&Convert to Table",           ID_TABLE_CONVERTTOTABLE
-
                 MENUITEM "&Excel Spreadsheet",          ID_TABLE_EXCELSPREADSHEET
-
                 MENUITEM "&Quick Tables",               ID_TABLE_QUICKTABLES
             END
         END
@@ -573,10 +585,7 @@ BEGIN
                 MENUITEM SEPARATOR
                 MENUITEM "&Edit Header",                ID_INSERT_EDITHEADER
                 MENUITEM "&Remove Header",              ID_INSERT_REMOVEHEADER
-
-                MENUITEM "&Save Selection to Header Gallery...", 
-                                                        ID_INSERT_SAVESELECTIONTOHEADERGALLERY
-
+                MENUITEM "&Save Selection to Header Gallery...", ID_INSERT_SAVESELECTIONTOHEADERGALLERY
             END
             POPUP "Footer"
             BEGIN
@@ -584,10 +593,7 @@ BEGIN
                 MENUITEM SEPARATOR
                 MENUITEM "&Edit Footer",                ID_INSERT_EDITFOOTER
                 MENUITEM "&Remove Footer",              ID_INSERT_REMOVEFOOTER
-
-                MENUITEM "&Save Selection to Footer Gallery...", 
-                                                        ID_INSERT_SAVESELECTIONTOFOOTERGALLERY
-
+                MENUITEM "&Save Selection to Footer Gallery...", ID_INSERT_SAVESELECTIONTOFOOTERGALLERY
             END
             POPUP "Page Number"
             BEGIN
@@ -595,16 +601,11 @@ BEGIN
                 MENUITEM SEPARATOR
                 MENUITEM "&Top of Page",                ID_INSERT_TOPOFPAGE
                 MENUITEM "&Bottom of Page",             ID_INSERT_BOTTOMOFPAGE
-
                 MENUITEM "Page &Margins",               ID_INSERT_PAGEMARGINS
-
                 MENUITEM "&Current Position",           ID_INSERT_CURRENTPOSITION
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Format Page Numbers...",     ID_INSERT_FORMATPAGENUMBERS
-
                 MENUITEM "&Remove Page Numbers",        ID_INSERT_REMOVEPAGENUMBERS
-
             END
         END
         POPUP "Text"
@@ -614,10 +615,7 @@ BEGIN
                 MENUITEM "Text Box",                    ID_INSERT_TEXTBOX
                 MENUITEM SEPARATOR
                 MENUITEM "&Draw Text Box",              ID_INSERT_DRAWTEXTBOX
-
-                MENUITEM "&Save Selection to Text Box Gallery...", 
-                                                        ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY
-
+                MENUITEM "&Save Selection to Text Box Gallery...", ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY
             END
             MENUITEM "Quick Parts",                 ID_INSERT_QUICKPARTS
             MENUITEM "Word Art",                    ID_INSERT_WORDART
@@ -640,35 +638,26 @@ BEGIN
             BEGIN
                 MENUITEM "Themes",                      ID_PAGELAYOUT_THEMES
                 MENUITEM SEPARATOR
-                MENUITEM "&Reset to Theme from Template", 
-                                                        ID_PAGELAYOUT_THEMES_RESETFROMTEMPLATE
-
-                MENUITEM "More Themes on Microsoft &Office Online...", 
-                                                        ID_PAGELAYOUT_THEMES_MORETHEMES
-
+                MENUITEM "&Reset to Theme from Template", ID_PAGELAYOUT_THEMES_RESETFROMTEMPLATE
+                MENUITEM "More Themes on Microsoft &Office Online...", ID_PAGELAYOUT_THEMES_MORETHEMES
                 MENUITEM "&Browse for Themes...",       ID_PAGELAYOUT_THEMES_BROWSEFORTHEMES
-
                 MENUITEM "&Save Current Theme...",      ID_PAGELAYOUT_THEMES_SAVECURRENTTHEME
-
             END
             POPUP "Colors"
             BEGIN
                 MENUITEM "Colors",                      ID_PAGELAYOUT_COLORS
                 MENUITEM SEPARATOR
                 MENUITEM "&Create New Theme Colors...", ID_PAGELAYOUT_COLORS_CREATENEWTHEMECOLORS
-
             END
             POPUP "Fonts"
             BEGIN
                 MENUITEM "Fonts",                       ID_PAGELAYOUT_FONTS
                 MENUITEM SEPARATOR
                 MENUITEM "&Create New Theme Fonts...",  ID_PAGELAYOUT_FONTS_CREATENEWTHEMEFONTS
-
             END
             POPUP "Effects"
             BEGIN
                 MENUITEM "Effects",                     ID_PAGELAYOUT_EFFECTS
-
             END
         END
         POPUP "Page Setup"
@@ -678,148 +667,98 @@ BEGIN
             POPUP "Margins"
             BEGIN
                 MENUITEM "Margins",                     ID_PAGELAYOUT_MARGINS
-
                 MENUITEM SEPARATOR
                 MENUITEM "Normal",                      ID_PAGELAYOUT_MARGINS_NORMAL
-
                 MENUITEM "Wide",                        ID_PAGELAYOUT_MARGINS_WIDE
-
                 MENUITEM "Moderate",                    ID_PAGELAYOUT_MARGINS_MODERATE
-
                 MENUITEM "Narrow",                      ID_PAGELAYOUT_MARGINS_NARROW
-
                 MENUITEM "Mirrored",                    ID_PAGELAYOUT_MARGINS_MIRRORED
-
                 MENUITEM SEPARATOR
                 MENUITEM "Custom M&argins...",          ID_PAGELAYOUT_MARGINS_CUSTOMMARGINS
-
             END
             POPUP "Orientation"
             BEGIN
                 MENUITEM "Orientation",                 ID_PAGELAYOUT_ORIENTATION
-
                 MENUITEM SEPARATOR
                 MENUITEM "Portrait",                    ID_PAGELAYOUT_ORIENTATION_PORTRAIT
-
                 MENUITEM "Landscape",                   ID_PAGELAYOUT_ORIENTATION_LANDSCAPE
-
             END
             POPUP "Size"
             BEGIN
                 MENUITEM "Size",                        ID_PAGELAYOUT_PAGESETUP_SIZE
-
                 MENUITEM SEPARATOR
                 MENUITEM "More P&aper Sizes...",        ID_PAGELAYOUT_PAGESETUP_SIZE_MOREPAPERSIZES
-
             END
             POPUP "Columns"
             BEGIN
                 MENUITEM "Columns",                     ID_PAGELAYOUT_COLUMNS
-
                 MENUITEM SEPARATOR
                 MENUITEM "One",                         ID_PAGELAYOUT_COLUMNS_ONE
-
                 MENUITEM "Two",                         ID_PAGELAYOUT_COLUMNS_TWO
-
                 MENUITEM "Three",                       ID_PAGELAYOUT_COLUMNS_THREE
-
                 MENUITEM "Left",                        ID_PAGELAYOUT_COLUMNS_LEFT
-
                 MENUITEM "Right",                       ID_PAGELAYOUT_COLUMNS_RIGHT
-
                 MENUITEM SEPARATOR
                 MENUITEM "More &Columns...",            ID_PAGELAYOUT_COLUMNS_MORECOLUMNS
-
             END
             MENUITEM "Breaks",                      ID_PAGELAYOUT_PAGESETUP_BREAKS
-
             MENUITEM "Line Numbers",                ID_PAGELAYOUT_PAGESETUP_LINENUMBERS
-
             MENUITEM "Hyphenation",                 ID_PAGELAYOUT_PAGESETUP_HYPHENATION
-
         END
         POPUP "Page Background"
         BEGIN
             MENUITEM "Watermark",                   ID_PAGELAYOUT_PAGEBACKGROUND_WATERMARK
-
             MENUITEM "Page Color",                  ID_PAGELAYOUT_PAGEBACKGROUND_PAGECOLOR
-
             MENUITEM "Page Borders",                ID_PAGELAYOUT_PAGEBACKGROUND_PAGEBORDERS
-
         END
         POPUP "Paragraph"
         BEGIN
             MENUITEM "Indent Left",                 ID_PAGELAYOUT_INDENT_LEFT
-
             MENUITEM "Indent Right",                ID_PAGELAYOUT_INDENT_RIGHT
-
             MENUITEM SEPARATOR
             MENUITEM "Spacing Before",              ID_PAGELAYOUT_SPACE_BEFORE
-
             MENUITEM "Spacing After",               ID_PAGELAYOUT_SPACE_AFTER
-
         END
         POPUP "Arrange"
         BEGIN
             POPUP "Position"
             BEGIN
                 MENUITEM "Position",                    ID_PAGELAYOUT_ARRANGE_POSITION
-
                 MENUITEM SEPARATOR
                 MENUITEM "More &Layout Options...",     ID_PAGELAYOUT_MORELAYOUTOPTIONS
-
             END
             POPUP "Bring to Front"
             BEGIN
                 MENUITEM "Bring to F&ront",             ID_PAGELAYOUT_BRINGTOFRONT
-
                 MENUITEM "Bring &Forward",              ID_PAGELAYOUT_BRINGFORWARD
-
                 MENUITEM "Bring in Fr&ont of Text",     ID_PAGELAYOUT_BRINGINFRONTOFTEXT
-
             END
             POPUP "Send to Back"
             BEGIN
                 MENUITEM "Send to Bac&k",               ID_PAGELAYOUT_SENDTOBACK
-
                 MENUITEM "Send &Backward",              ID_PAGELAYOUT_SENDBACKWARD
-
                 MENUITEM "Send Be&hind Text",           ID_PAGELAYOUT_SENDBEHINDTEXT
-
             END
             POPUP "Text Wrapping"
             BEGIN
                 MENUITEM "Text Wrapping",               ID_PAGELAYOUT_TEXTWRAPPING
-
                 MENUITEM SEPARATOR
                 MENUITEM "&In Line With Text",          ID_PAGELAYOUT_TEXTWRAPPING_INLINEWITHTEXT
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Square",                     ID_PAGELAYOUT_TEXTWRAPPING_SQUARE
-
                 MENUITEM "&Tight",                      ID_PAGELAYOUT_TEXTWRAPPING_TIGHT
-
                 MENUITEM "Behin&d Text",                ID_PAGELAYOUT_TEXTWRAPPING_BEHINDTEXT
-
                 MENUITEM "I&n Front of Text",           ID_PAGELAYOUT_TEXTWRAPPING_INFRONTOFTEXT
-
                 MENUITEM SEPARATOR
                 MENUITEM "T&op and Bottom",             ID_PAGELAYOUT_TEXTWRAPPING_TOPANDBOTTOM
-
                 MENUITEM "T&hrough",                    ID_PAGELAYOUT_TEXTWRAPPING_THROUGH
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Edit Wrap Points",           ID_PAGELAYOUT_TEXTWRAPPING_EDITWRAPPOINTS
-
                 MENUITEM "More &Layout Options...",     ID_PAGELAYOUT_MORELAYOUTOPTIONS
-
             END
             MENUITEM "Align",                       ID_PAGELAYOUT_ARRANGE_ALIGN
-
             MENUITEM "Group",                       ID_PAGELAYOUT_ARRANGE_GROUP
-
             MENUITEM "Rotate",                      ID_PAGELAYOUT_ARRANGE_ROTATE
-
         END
     END
     POPUP "References"
@@ -838,38 +777,26 @@ BEGIN
             POPUP "Start Mail Merge"
             BEGIN
                 MENUITEM "Start Mail Merge",            ID_MAILINGS_STARTMAILMERGE
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Letters",                    ID_MAILINGS_LETTERS
                 MENUITEM "E-mail &Messages",            ID_MAILINGS_EMAILMESSAGES
-
                 MENUITEM "&Envelops...",                ID_MAILINGS_ENVELOPES
-
                 MENUITEM "La&bels...",                  ID_MAILINGS_LABELS
                 MENUITEM "&Directory",                  ID_MAILINGS_DIRECTORY
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Normal Document",            ID_MAILINGS_NORMALDOCUMENT
-
                 MENUITEM SEPARATOR
-                MENUITEM "&Step by Step Mail Merge Wizard...", 
-                                                        ID_MAILINGS_STEPBYSTEPMAILMERGEWIZARD
-
+                MENUITEM "&Step by Step Mail Merge Wizard...", ID_MAILINGS_STEPBYSTEPMAILMERGEWIZARD
             END
             POPUP "Select Recipients"
             BEGIN
                 MENUITEM "Select Recipients",           ID_MAILINGS_SELECTRECIPIENTS
-
                 MENUITEM SEPARATOR
                 MENUITEM "Type &New List...",           ID_MAILINGS_TYPENEWLIST
-
                 MENUITEM "Use &Existing List...",       ID_MAILINGS_USEEXISTINGLIST
-
                 MENUITEM "&Select from Contacts...",    ID_MAILINGS_SELECTFROMCONTACTS
-
             END
             MENUITEM "Edit Recipient List",         ID_MAILINGS_EDITRECIPIENTLIST
-
         END
         POPUP "Write && Insert Mail Fields"
         BEGIN
@@ -877,7 +804,6 @@ BEGIN
             MENUITEM "Address Block",               ID_MAILINGS_ADDRESSBLOCK
             MENUITEM "Greeting Line",               ID_MAILINGS_GREETINGLINE
             MENUITEM "Insert Merged Field",         ID_MAILINGS_INSERTMERGEDFIELD
-
             MENUITEM "Rules",                       ID_MAILINGS_RULES
             MENUITEM "Match Fields",                ID_MAILINGS_MATCHFIELDS
             MENUITEM "Update Labels",               ID_MAILINGS_UPDATELABELS
@@ -885,18 +811,14 @@ BEGIN
         POPUP "Preview Results"
         BEGIN
             MENUITEM "Preview Results",             ID_MAILINGS_VIEWMERGEDDATA
-
             MENUITEM SEPARATOR
             MENUITEM "First Record",                ID_MAILINGS_FIRSTRECORD
             MENUITEM "Previous Record",             ID_MAILINGS_PREVIOUSRECORD
-
             MENUITEM "Go to Record",                ID_MAILINGS_GOTORECORD
             MENUITEM "Next Record",                 ID_MAILINGS_NEXTRECORD
             MENUITEM "Last Record",                 ID_MAILINGS_LASTRECORD
             MENUITEM "Find Recipient",              ID_MAILINGS_FINDRECIPIENT
-
             MENUITEM "Auto Check for Errors",       ID_MAILINGS_AUTOCHECHERRORS
-
         END
         POPUP "Finish"
         BEGIN
@@ -908,36 +830,23 @@ BEGIN
         POPUP "Proofing"
         BEGIN
             MENUITEM "Spelling && Grammar",         ID_REVIEW_PROOFING_SPELLINGGRAMMAR
-
             MENUITEM "Research",                    ID_REVIEW_PROOFING_RESEARCH
-
             MENUITEM "Thesaurus",                   ID_REVIEW_PROOFING_THESAURUS
-
             MENUITEM "Translate",                   ID_REVIEW_PROOFING_TRANSLATE
-
             MENUITEM "Translation ScreenTip",       ID_REVIEW_PROOFING_TRANSLATIONSCREENTIP
-
             MENUITEM "Set Language",                ID_REVIEW_PROOFING_SETLANGUAGE
-
             MENUITEM "Word Count",                  ID_REVIEW_PROOFING_WORDCOUNT
-
         END
         POPUP "Comments"
         BEGIN
             MENUITEM "New Comment",                 ID_REVIEW_COMMENTS_NEWCOMMENT
-
             POPUP "Delete"
             BEGIN
                 MENUITEM "&Delete",                     ID_REVIEW_COMMENTS_DELETE
-
                 MENUITEM "Delete &All Comments Shown",  ID_REVIEW_COMMENTS_DELETE_ALLSHOWN
-
-                MENUITEM "Delete All C&omments in Document", 
-                                                        ID_REVIEW_COMMENTS_DELETE_ALL
-
+                MENUITEM "Delete All C&omments in Document", ID_REVIEW_COMMENTS_DELETE_ALL
             END
             MENUITEM "Previous",                    ID_REVIEW_COMMENTS_PREVIOUS
-
             MENUITEM "Next",                        ID_REVIEW_COMMENTS_NEXT
         END
         POPUP "Tracking"
@@ -945,58 +854,38 @@ BEGIN
             POPUP "Track Changes"
             BEGIN
                 MENUITEM "Track Chan&ges",              ID_REVIEW_TRACKING_TRACKCHANGES
-
                 MENUITEM "Change Tracking &Options...", ID_REVIEW_TRACKCHANGES_CHANGETRACKINGOPTIONS
-
                 MENUITEM "Change &User Name...",        ID_REVIEW_TRACKING_CHANGEUSERNAME
-
             END
             POPUP "Balloons"
             BEGIN
                 MENUITEM "Balloons",                    ID_REVIEW_TRACKING_BALLOONS
-
                 MENUITEM SEPARATOR
                 MENUITEM "Show Revisions in &Balloons", ID_REVIEW_TRACKING_SHOWREVISIONS
-
                 MENUITEM "Show All Rev&isions Inline",  ID_REVIEW_TRACKING_SHOWALLREVISIONS
-
-                MENUITEM "Show Only &Comments and Formatting in Balloons", 
-                                                        ID_REVIEW_TRACKING_SHOWONLYCOOMENTS
-
+                MENUITEM "Show Only &Comments and Formatting in Balloons", ID_REVIEW_TRACKING_SHOWONLYCOOMENTS
             END
             MENUITEM "Display for Review",          ID_REVIEW_TRACKING_DISPLAYFORREVIEW
-
             POPUP "Show Markup"
             BEGIN
                 MENUITEM "Show Markup",                 ID_REVIEW_TRACKING_SHOW_MARKUP
-
                 MENUITEM SEPARATOR
-                MENUITEM "&Comments",                   ID_REVIEW_TRACKING_SHOW_COMMENTS
-                , CHECKED
-                MENUITEM "In&k",                        ID_REVIEW_TRACKING_SHOW_INK
-                , CHECKED
-                MENUITEM "&Insertions and Deletions",   ID_REVIEW_TRACKING_SHOW_INSERTIONSANDDELETIONS
-                , CHECKED
-                MENUITEM "&Formatting",                 ID_REVIEW_TRACKING_SHOW_FORMATTING
-                , CHECKED
-                MENUITEM "Markup Area &Highlight",      ID_REVIEW_TRACKING_SHOW_MARKUPAREAHIGHLIGHT
-                , CHECKED
+                MENUITEM "&Comments",                   ID_REVIEW_TRACKING_SHOW_COMMENTS, CHECKED
+                MENUITEM "In&k",                        ID_REVIEW_TRACKING_SHOW_INK, CHECKED
+                MENUITEM "&Insertions and Deletions",   ID_REVIEW_TRACKING_SHOW_INSERTIONSANDDELETIONS, CHECKED
+                MENUITEM "&Formatting",                 ID_REVIEW_TRACKING_SHOW_FORMATTING, CHECKED
+                MENUITEM "Markup Area &Highlight",      ID_REVIEW_TRACKING_SHOW_MARKUPAREAHIGHLIGHT, CHECKED
                 POPUP "&Reviewers"
                 BEGIN
-                    MENUITEM "&All Reviewers",              ID_REVIEW_TRACKING_SHOW_ALLREVIEWERS
-                    , CHECKED
+                    MENUITEM "&All Reviewers",              ID_REVIEW_TRACKING_SHOW_ALLREVIEWERS, CHECKED
                 END
             END
             POPUP "Reviewing Pane"
             BEGIN
                 MENUITEM "Reviewing Pane",              ID_REVIEW_TRACKING_REVIEWINGPANE
-
                 MENUITEM SEPARATOR
                 MENUITEM "Reviewing Pane &Vertical...", ID_REVIEW_TRACKING_REVIEWINGPANE_VERTICAL
-
-                MENUITEM "Reviewing Pane &Horizontal...", 
-                                                        ID_REVIEW_TRACKING_REVIEWINGPANE_HORIZONTAL
-
+                MENUITEM "Reviewing Pane &Horizontal...", ID_REVIEW_TRACKING_REVIEWINGPANE_HORIZONTAL
             END
         END
         POPUP "Changes"
@@ -1004,29 +893,18 @@ BEGIN
             POPUP "Accept and Move to Next"
             BEGIN
                 MENUITEM "Accept and &Move to Next",    ID_REVIEW_CHANGES_ACCEPT
-
                 MENUITEM "A&ccept Change",              ID_REVIEW_CHANGES_ACCEPT_CHANGE
-
                 MENUITEM "&Accept All Changes Shown",   ID_REVIEW_CHANGES_ACCEPT_ALLSHOWN
-
-                MENUITEM "Accept All Changes in &Document", 
-                                                        ID_REVIEW_CHANGES_ACCEPT_ALL
-
+                MENUITEM "Accept All Changes in &Document", ID_REVIEW_CHANGES_ACCEPT_ALL
             END
             POPUP "Reject"
             BEGIN
                 MENUITEM "Reject and &Move to Next",    ID_REVIEW_CHANGES_REJECT
-
                 MENUITEM "&Reject Change",              ID_REVIEW_CHANGES_REJECT_CHANGE
-
                 MENUITEM "Reject &All Changes Shown",   ID_REVIEW_CHANGES_REJECT_ALLSHOWN
-
-                MENUITEM "Reject All Changes in &Document", 
-                                                        ID_REVIEW_CHANGES_REJECT_ALL
-
+                MENUITEM "Reject All Changes in &Document", ID_REVIEW_CHANGES_REJECT_ALL
             END
             MENUITEM "Previous",                    ID_REVIEW_CHANGES_PREVIOUS
-
             MENUITEM "Next",                        ID_REVIEW_CHANGES_NEXT
         END
         POPUP "Compare"
@@ -1034,26 +912,18 @@ BEGIN
             POPUP "Compare"
             BEGIN
                 MENUITEM "Compare",                     ID_REVIEW_COMPARE_COMPARE
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Compare...",                 ID_REVIEW_COMPARE_COMPARE_COMPARE
-
                 MENUITEM "Co&mbine...",                 ID_REVIEW_COMPARE_COMPARE_COMBINE
-
             END
             POPUP "Show Source Documents"
             BEGIN
                 MENUITEM "Show Source Documents",       ID_REVIEW_COMPARE_SHOWSOURCE
-
                 MENUITEM SEPARATOR
                 MENUITEM "&Hide Source Documents",      ID_REVIEW_COMPARE_SHOWSOURCE_HIDESOURCE
-
                 MENUITEM "Show &Original",              ID_REVIEW_COMPARE_SHOWSOURCE_SHOWORIGINAL
-
                 MENUITEM "Show &Revised",               ID_REVIEW_COMPARE_SHOWSOURCE_SHOWREVISED
-
-                MENUITEM "Show &Both",                  ID_REVIEW_COMPARE_SHOWSOURCE_SHOWBOTH
-                , CHECKED
+                MENUITEM "Show &Both",                  ID_REVIEW_COMPARE_SHOWSOURCE_SHOWBOTH, CHECKED
             END
         END
         POPUP "Protect"
@@ -1110,7 +980,7 @@ BEGIN
     END
 END
 
-IDR_CNTR_INPLACE MENU PRELOAD DISCARDABLE 
+IDR_CNTR_INPLACE MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -1131,7 +1001,7 @@ BEGIN
     MENUITEM SEPARATOR
 END
 
-IDR_CONTEXT_MENU MENU DISCARDABLE 
+IDR_CONTEXT_MENU MENU
 BEGIN
     POPUP "_POPUP_"
     BEGIN
@@ -1148,14 +1018,14 @@ BEGIN
     END
 END
 
-IDR_WRITE_PASTE_MENU MENU DISCARDABLE 
+IDR_WRITE_PASTE_MENU MENU
 BEGIN
     MENUITEM "&Paste",                      ID_EDIT_PASTE
     MENUITEM "Paste &Special...",           ID_EDIT_PASTE_SPECIAL
     MENUITEM "Paste as &Hyperlink",         ID_EDIT_PASTE_HYPERLINK
 END
 
-IDR_MAIL_MERGE_MENU MENU DISCARDABLE 
+IDR_MAIL_MERGE_MENU MENU
 BEGIN
     MENUITEM "&Letters",                    ID_MAILINGS_LETTERS
     MENUITEM "E-mail &Messages",            ID_MAILINGS_EMAILMESSAGES
@@ -1165,12 +1035,10 @@ BEGIN
     MENUITEM SEPARATOR
     MENUITEM "&Normal Document",            ID_MAILINGS_NORMALDOCUMENT
     MENUITEM SEPARATOR
-    MENUITEM "&Step by Step Mail Merge Wizard...", 
-                                            ID_MAILINGS_STEPBYSTEPMAILMERGEWIZARD
-
+    MENUITEM "&Step by Step Mail Merge Wizard...", ID_MAILINGS_STEPBYSTEPMAILMERGEWIZARD
 END
 
-IDR_INSERT_TABLE_MENU MENU DISCARDABLE 
+IDR_INSERT_TABLE_MENU MENU
 BEGIN
     MENUITEM "&Insert Table...",            ID_TABLE_TABLE
     MENUITEM "&Draw Table",                 ID_TABLE_DRAWTABLE
@@ -1179,19 +1047,19 @@ BEGIN
     MENUITEM "&Quick Tables",               ID_TABLE_QUICKTABLES
 END
 
-IDR_THEME_MENU MENU DISCARDABLE 
+IDR_THEME_MENU MENU
 BEGIN
     MENUITEM "Office &2003",                ID_VIEW_APPLOOK_2003
     MENUITEM "Office 2007 - &blue",         ID_VIEW_APPLOOK_2007_1
     MENUITEM "Office 2007 - bla&ck",        ID_VIEW_APPLOOK_2007_2
     MENUITEM "Office 2007 - &silver",       ID_VIEW_APPLOOK_2007_4
     MENUITEM "Office 2007 - &aqua",         ID_VIEW_APPLOOK_2007_3
-    MENUITEM "Windows &7",         			ID_VIEW_APPLOOK_WIN7
+    MENUITEM "Windows &7",                  ID_VIEW_APPLOOK_WIN7
     MENUITEM SEPARATOR
     MENUITEM "&Right to Left Layout",       ID_VIEW_RTL
 END
 
-IDR_WRITE_FONTCASE_MENU MENU DISCARDABLE 
+IDR_WRITE_FONTCASE_MENU MENU
 BEGIN
     MENUITEM "&Sentence case",              ID_FONT_CASE_SENTENCE
     MENUITEM "&lowercase",                  ID_FONT_CASE_LOWERCASE
@@ -1200,37 +1068,34 @@ BEGIN
     MENUITEM "&tOGGLE cASE",                ID_FONT_CASE_TOGGLECASE
 END
 
-IDR_WRITE_SELECT_MENU MENU DISCARDABLE 
+IDR_WRITE_SELECT_MENU MENU
 BEGIN
     MENUITEM "Select &All",                 ID_EDIT_SELECT_ALL
     MENUITEM "Select &Objects",             ID_EDIT_SELECTOBJECTS
     MENUITEM "Select Text with &Similar Formatting", ID_EDIT_SELECTFORMAT
 END
 
-IDR_PARA_BULLETS_MENU MENU DISCARDABLE 
+IDR_PARA_BULLETS_MENU MENU
 BEGIN
-    MENUITEM "Change List Level",           ID_PARA_CHANGE_LIST_LEVEL
-    , INACTIVE
+    MENUITEM "Change List Level",           ID_PARA_CHANGE_LIST_LEVEL, INACTIVE
     MENUITEM "Define New Bullet...",        ID_PARA_DEFINENEWBULLET
 END
 
-IDR_PARA_NUMBERING_MENU MENU DISCARDABLE 
+IDR_PARA_NUMBERING_MENU MENU
 BEGIN
-    MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL
-    , INACTIVE
+    MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL, INACTIVE
     MENUITEM "&Define New Number Format",   ID_PARA_DEFINENEWNUMBERFORMAT
     MENUITEM "&Set Numbering Value...",     ID_PARA_SETNUMBERINGVALUE
 END
 
-IDR_PARA_MULTILIST_MENU MENU DISCARDABLE 
+IDR_PARA_MULTILIST_MENU MENU
 BEGIN
-    MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL
-    , INACTIVE
+    MENUITEM "&Change List Level",          ID_PARA_CHANGE_LIST_LEVEL, INACTIVE
     MENUITEM "&Define New Multilevel List", ID_PARA_DEFINENEWMULTILEVELLIST
     MENUITEM "Define New List &Style...",   ID_PARA_DEFINENEWLISTSTYLE
 END
 
-IDR_PARA_LINESPACING_MENU MENU DISCARDABLE 
+IDR_PARA_LINESPACING_MENU MENU
 BEGIN
     MENUITEM "1.0",                         ID_PARA_LINESPACING1
     MENUITEM "1.15",                        ID_PARA_LINESPACING2
@@ -1244,7 +1109,7 @@ BEGIN
     MENUITEM "Remove Space &After Paragraph", ID_PARA_LINESPACINGAFTER
 END
 
-IDR_WRITE_STYLECHANGE_MENU MENU DISCARDABLE 
+IDR_WRITE_STYLECHANGE_MENU MENU
 BEGIN
     MENUITEM "St&yle Set",                  ID_STYLECHANGE_STYLESET
     MENUITEM "&Colors",                     ID_STYLECHANGE_COLORS
@@ -1253,44 +1118,39 @@ BEGIN
     MENUITEM "&Set as Default",             ID_STYLECHANGE_SETDEFAULT
 END
 
-IDR_INSERT_COVERPAGE_MENU MENU DISCARDABLE 
+IDR_INSERT_COVERPAGE_MENU MENU
 BEGIN
     MENUITEM "&Remove Current Cover Page",  ID_INSERT_REMOVECURRENTCOVERPAGE
-    MENUITEM "&Save Selection to Cover Page Gallery...", 
-                                            ID_INSERT_SAVETOCOVERPAGEGALLERY
+    MENUITEM "&Save Selection to Cover Page Gallery...", ID_INSERT_SAVETOCOVERPAGEGALLERY
 END
 
-IDR_INSERT_PICTURE_MENU MENU DISCARDABLE 
+IDR_INSERT_PICTURE_MENU MENU
 BEGIN
     MENUITEM "Picture from File",           ID_INSERT_PICTURE
     MENUITEM "Clip Art",                    ID_INSERT_CLIPART
     MENUITEM "Picture from Scaner or Camera", ID_INSERT_PICTUREFROMSCANER
 END
 
-IDR_INSERT_SHAPES_MENU MENU DISCARDABLE 
+IDR_INSERT_SHAPES_MENU MENU
 BEGIN
     MENUITEM "New Drawing",                 ID_INSERT_SHAPESNEW
 END
 
-IDR_INSERT_HEADER_MENU MENU DISCARDABLE 
+IDR_INSERT_HEADER_MENU MENU
 BEGIN
     MENUITEM "&Edit Header",                ID_INSERT_EDITHEADER
     MENUITEM "&Remove Header",              ID_INSERT_REMOVEHEADER
-    MENUITEM "&Save Selection to Header Gallery...", 
-                                            ID_INSERT_SAVESELECTIONTOHEADERGALLERY
-
+    MENUITEM "&Save Selection to Header Gallery...", ID_INSERT_SAVESELECTIONTOHEADERGALLERY
 END
 
-IDR_INSERT_FOOTER_MENU MENU DISCARDABLE 
+IDR_INSERT_FOOTER_MENU MENU
 BEGIN
     MENUITEM "&Edit Footer",                ID_INSERT_EDITFOOTER
     MENUITEM "&Remove Footer",              ID_INSERT_REMOVEFOOTER
-    MENUITEM "&Save Selection to Footer Gallery...", 
-                                            ID_INSERT_SAVESELECTIONTOFOOTERGALLERY
-
+    MENUITEM "&Save Selection to Footer Gallery...", ID_INSERT_SAVESELECTIONTOFOOTERGALLERY
 END
 
-IDR_INSERT_PAGENUMBERS_MENU MENU DISCARDABLE 
+IDR_INSERT_PAGENUMBERS_MENU MENU
 BEGIN
     MENUITEM "&Top of Page",                ID_INSERT_TOPOFPAGE
     MENUITEM "&Bottom of Page",             ID_INSERT_BOTTOMOFPAGE
@@ -1301,28 +1161,28 @@ BEGIN
     MENUITEM "&Remove Page Numbers",        ID_INSERT_REMOVEPAGENUMBERS
 END
 
-IDR_MAIL_RECIPIENTS_MENU MENU DISCARDABLE 
+IDR_MAIL_RECIPIENTS_MENU MENU
 BEGIN
     MENUITEM "Type &New List...",           ID_MAILINGS_TYPENEWLIST
     MENUITEM "Use &Existing List...",       ID_MAILINGS_USEEXISTINGLIST
     MENUITEM "&Select from Contacts...",    ID_MAILINGS_SELECTFROMCONTACTS
 END
 
-IDR_PAGELAYOUT_BRINGTOFRONT MENU DISCARDABLE 
+IDR_PAGELAYOUT_BRINGTOFRONT MENU
 BEGIN
     MENUITEM "Bring to F&ront",             ID_PAGELAYOUT_BRINGTOFRONT
     MENUITEM "Bring &Forward",              ID_PAGELAYOUT_BRINGFORWARD
     MENUITEM "Bring in Fr&ont of Text",     ID_PAGELAYOUT_BRINGINFRONTOFTEXT
 END
 
-IDR_PAGELAYOUT_SENDTOBACK MENU DISCARDABLE 
+IDR_PAGELAYOUT_SENDTOBACK MENU
 BEGIN
     MENUITEM "Send to Bac&k",               ID_PAGELAYOUT_SENDTOBACK
     MENUITEM "Send &Backward",              ID_PAGELAYOUT_SENDBACKWARD
     MENUITEM "Send Be&hind Text",           ID_PAGELAYOUT_SENDBEHINDTEXT
 END
 
-IDR_PAGELAYOUT_MARGINS MENU DISCARDABLE 
+IDR_PAGELAYOUT_MARGINS MENU
 BEGIN
     MENUITEM "Normal",                      ID_PAGELAYOUT_MARGINS_NORMAL
     MENUITEM "Wide",                        ID_PAGELAYOUT_MARGINS_WIDE
@@ -1331,18 +1191,15 @@ BEGIN
     MENUITEM "Mirrored",                    ID_PAGELAYOUT_MARGINS_MIRRORED
     MENUITEM SEPARATOR
     MENUITEM "Custom M&argins...",          ID_PAGELAYOUT_MARGINS_CUSTOMMARGINS
-
 END
 
-IDR_PAGELAYOUT_ORIENTATION MENU DISCARDABLE 
+IDR_PAGELAYOUT_ORIENTATION MENU
 BEGIN
     MENUITEM "Portrait",                    ID_PAGELAYOUT_ORIENTATION_PORTRAIT
-
     MENUITEM "Landscape",                   ID_PAGELAYOUT_ORIENTATION_LANDSCAPE
-
 END
 
-IDR_PAGELAYOUT_COLUMNS MENU DISCARDABLE 
+IDR_PAGELAYOUT_COLUMNS MENU
 BEGIN
     MENUITEM "One",                         ID_PAGELAYOUT_COLUMNS_ONE
     MENUITEM "Two",                         ID_PAGELAYOUT_COLUMNS_TWO
@@ -1351,42 +1208,33 @@ BEGIN
     MENUITEM "Right",                       ID_PAGELAYOUT_COLUMNS_RIGHT
     MENUITEM SEPARATOR
     MENUITEM "More &Columns...",            ID_PAGELAYOUT_COLUMNS_MORECOLUMNS
-
 END
 
-IDR_PAGELAYOUT_TEXTWRAPPING MENU DISCARDABLE 
+IDR_PAGELAYOUT_TEXTWRAPPING MENU
 BEGIN
     MENUITEM "&In Line With Text",          ID_PAGELAYOUT_TEXTWRAPPING_INLINEWITHTEXT
-
     MENUITEM SEPARATOR
     MENUITEM "&Square",                     ID_PAGELAYOUT_TEXTWRAPPING_SQUARE
-
     MENUITEM "&Tight",                      ID_PAGELAYOUT_TEXTWRAPPING_TIGHT
     MENUITEM "Behin&d Text",                ID_PAGELAYOUT_TEXTWRAPPING_BEHINDTEXT
-
     MENUITEM "I&n Front of Text",           ID_PAGELAYOUT_TEXTWRAPPING_INFRONTOFTEXT
-
     MENUITEM SEPARATOR
     MENUITEM "T&op and Bottom",             ID_PAGELAYOUT_TEXTWRAPPING_TOPANDBOTTOM
-
     MENUITEM "T&hrough",                    ID_PAGELAYOUT_TEXTWRAPPING_THROUGH
-
     MENUITEM SEPARATOR
     MENUITEM "&Edit Wrap Points",           ID_PAGELAYOUT_TEXTWRAPPING_EDITWRAPPOINTS
-
     MENUITEM "More &Layout Options...",     ID_PAGELAYOUT_MORELAYOUTOPTIONS
 END
 
-IDR_REFERENCES_ADDTEXT MENU DISCARDABLE 
+IDR_REFERENCES_ADDTEXT MENU
 BEGIN
-    MENUITEM "&Not Shown in Table of Contents", 
-                                            ID_REFERENCES_ADDTEXT_NOTSHOWNIN
+    MENUITEM "&Not Shown in Table of Contents", ID_REFERENCES_ADDTEXT_NOTSHOWNIN
     MENUITEM "Level &1",                    ID_REFERENCES_ADDTEXT_LEVEL1
     MENUITEM "Level &2",                    ID_REFERENCES_ADDTEXT_LEVEL2
     MENUITEM "Level &3",                    ID_REFERENCES_ADDTEXT_LEVEL3
 END
 
-IDR_REFERENCES_NEXTFOOTNOTE MENU DISCARDABLE 
+IDR_REFERENCES_NEXTFOOTNOTE MENU
 BEGIN
     MENUITEM "&Next Footnote",              ID_REFERENCES_FOOTNOTE_NEXT
     MENUITEM "&Previous Footnote",          ID_REFERENCES_FOOTNOTE_PREVIOUS
@@ -1394,17 +1242,14 @@ BEGIN
     MENUITEM "Pre&vious Endnote",           ID_REFERENCES_ENDNOTE_PREVIOUS
 END
 
-IDR_REFERENCES_INSERTCITATION MENU DISCARDABLE 
+IDR_REFERENCES_INSERTCITATION MENU
 BEGIN
     MENUITEM "Add New &Source...",          ID_REFERENCES_INSERTCITATION_ADDNEWSOURCE
-
     MENUITEM "Add New &Placeholder...",     ID_REFERENCES_INSERTCITATION_ADDNEWPLACEHOLDER
-
     MENUITEM "Search &Libraries...",        ID_REFERENCES_INSERTCITATION_SEARCHLIBRARIES
-
 END
 
-IDR_THEME_MENU_STATIC MENU DISCARDABLE 
+IDR_THEME_MENU_STATIC MENU
 BEGIN
     MENUITEM "Office &2003",                ID_VIEW_APPLOOK_2003
     MENUITEM "Office 2007 (blue)",          ID_VIEW_APPLOOK_2007_1
@@ -1412,26 +1257,24 @@ BEGIN
     MENUITEM "&Right to Left Layout",       ID_VIEW_RTL
 END
 
-IDR_DUMMY_MENU MENU DISCARDABLE 
+IDR_DUMMY_MENU MENU
 BEGIN
     MENUITEM "Item      ",                  ID_DUMMY
 END
 
-IDR_INSERT_TEXTBOX_MENU MENU DISCARDABLE 
+IDR_INSERT_TEXTBOX_MENU MENU
 BEGIN
     MENUITEM "&Draw Text Box",              ID_INSERT_DRAWTEXTBOX
-    MENUITEM "&Save Selection to Text Box Gallery...", 
-                                            ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY
-
+    MENUITEM "&Save Selection to Text Box Gallery...", ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY
 END
 
-IDR_WRITE_FIND_MENU MENU DISCARDABLE 
+IDR_WRITE_FIND_MENU MENU
 BEGIN
     MENUITEM "&Find...",                    ID_EDIT_FIND
     MENUITEM "&Go To...",                   ID_EDIT_GOTO
 END
 
-IDR_WRITE_BORDERS_MENU MENU DISCARDABLE 
+IDR_WRITE_BORDERS_MENU MENU
 BEGIN
     MENUITEM "&Bottom Border",              ID_BORDERS_BOTTOMBORDER
     MENUITEM "To&p Border",                 ID_BORDERS_TOPBORDER
@@ -1444,7 +1287,6 @@ BEGIN
     MENUITEM "&Inside Borders",             ID_BORDERS_INSIDEBORDERS
     MENUITEM SEPARATOR
     MENUITEM "Inside &Horizontal Border",   ID_BORDERS_INSIDEHORIZONTALBORDER
-
     MENUITEM "Inside &Vertical Border",     ID_BORDERS_INSIDEVERTICALBORDER
     MENUITEM "Diagonal Do&wn Border",       ID_BORDERS_DIAGONALDOWNBORDER
     MENUITEM "Diagonal &Up Border",         ID_BORDERS_DIAGONALUPBORDER
@@ -1456,98 +1298,74 @@ BEGIN
     MENUITEM "B&orders and Shading...",     ID_BORDERS_BORDERSANDSHADING
 END
 
-IDR_REVIEW_COMMENTS_DELETE MENU DISCARDABLE 
+IDR_REVIEW_COMMENTS_DELETE MENU
 BEGIN
     MENUITEM "&Delete",                     ID_REVIEW_COMMENTS_DELETE
     MENUITEM "Delete &All Comments Shown",  ID_REVIEW_COMMENTS_DELETE_ALLSHOWN
-
-    MENUITEM "Delete All C&omments in Document", 
-                                            ID_REVIEW_COMMENTS_DELETE_ALL
+    MENUITEM "Delete All C&omments in Document", ID_REVIEW_COMMENTS_DELETE_ALL
 END
 
-IDR_REVIEW_TRACKING_TRACKCHANGES MENU DISCARDABLE 
+IDR_REVIEW_TRACKING_TRACKCHANGES MENU
 BEGIN
     MENUITEM "Track Chan&ges",              ID_REVIEW_TRACKING_TRACKCHANGES
     MENUITEM "Change Tracking &Options...", ID_REVIEW_TRACKCHANGES_CHANGETRACKINGOPTIONS
-
     MENUITEM "Change &User Name...",        ID_REVIEW_TRACKING_CHANGEUSERNAME
-
 END
 
-IDR_REVIEW_TRACKING_BALLOONS MENU DISCARDABLE 
+IDR_REVIEW_TRACKING_BALLOONS MENU
 BEGIN
     MENUITEM "Show Revisions in &Balloons", ID_REVIEW_TRACKING_SHOWREVISIONS
     MENUITEM "Show All Rev&isions Inline",  ID_REVIEW_TRACKING_SHOWALLREVISIONS
-
-    MENUITEM "Show Only &Comments and Formatting in Balloons", 
-                                            ID_REVIEW_TRACKING_SHOWONLYCOOMENTS
-
+    MENUITEM "Show Only &Comments and Formatting in Balloons", ID_REVIEW_TRACKING_SHOWONLYCOOMENTS
 END
 
-IDR_REVIEW_TRACKING_SHOW MENU DISCARDABLE 
+IDR_REVIEW_TRACKING_SHOW MENU
 BEGIN
-    MENUITEM "&Comments",                   ID_REVIEW_TRACKING_SHOW_COMMENTS
-    , CHECKED
-    MENUITEM "In&k",                        ID_REVIEW_TRACKING_SHOW_INK
-    , CHECKED
-    MENUITEM "&Insertions and Deletions",   ID_REVIEW_TRACKING_SHOW_INSERTIONSANDDELETIONS
-    , CHECKED
-    MENUITEM "&Formatting",                 ID_REVIEW_TRACKING_SHOW_FORMATTING
-    , CHECKED
-    MENUITEM "Markup Area &Highlight",      ID_REVIEW_TRACKING_SHOW_MARKUPAREAHIGHLIGHT
-    , CHECKED
+    MENUITEM "&Comments",                   ID_REVIEW_TRACKING_SHOW_COMMENTS, CHECKED
+    MENUITEM "In&k",                        ID_REVIEW_TRACKING_SHOW_INK, CHECKED
+    MENUITEM "&Insertions and Deletions",   ID_REVIEW_TRACKING_SHOW_INSERTIONSANDDELETIONS, CHECKED
+    MENUITEM "&Formatting",                 ID_REVIEW_TRACKING_SHOW_FORMATTING, CHECKED
+    MENUITEM "Markup Area &Highlight",      ID_REVIEW_TRACKING_SHOW_MARKUPAREAHIGHLIGHT, CHECKED
     POPUP "&Reviewers"
     BEGIN
-        MENUITEM "&All Reviewers",              ID_REVIEW_TRACKING_SHOW_ALLREVIEWERS
-        , CHECKED
+        MENUITEM "&All Reviewers",              ID_REVIEW_TRACKING_SHOW_ALLREVIEWERS, CHECKED
     END
 END
 
-IDR_REVIEW_TRACKING_REVIEWINGPANE MENU DISCARDABLE 
+IDR_REVIEW_TRACKING_REVIEWINGPANE MENU
 BEGIN
     MENUITEM "Reviewing Pane &Vertical...", ID_REVIEW_TRACKING_REVIEWINGPANE_VERTICAL
-
-    MENUITEM "Reviewing Pane &Horizontal...", 
-                                            ID_REVIEW_TRACKING_REVIEWINGPANE_HORIZONTAL
-
+    MENUITEM "Reviewing Pane &Horizontal...", ID_REVIEW_TRACKING_REVIEWINGPANE_HORIZONTAL
 END
 
-IDR_REVIEW_CHANGES_ACCEPT MENU DISCARDABLE 
+IDR_REVIEW_CHANGES_ACCEPT MENU
 BEGIN
     MENUITEM "Accept and &Move to Next",    ID_REVIEW_CHANGES_ACCEPT
     MENUITEM "A&ccept Change",              ID_REVIEW_CHANGES_ACCEPT_CHANGE
     MENUITEM "&Accept All Changes Shown",   ID_REVIEW_CHANGES_ACCEPT_ALLSHOWN
-
     MENUITEM "Accept All Changes in &Document", ID_REVIEW_CHANGES_ACCEPT_ALL
 END
 
-IDR_REVIEW_CHANGES_REJECT MENU DISCARDABLE 
+IDR_REVIEW_CHANGES_REJECT MENU
 BEGIN
     MENUITEM "Reject and &Move to Next",    ID_REVIEW_CHANGES_REJECT
     MENUITEM "&Reject Change",              ID_REVIEW_CHANGES_REJECT_CHANGE
     MENUITEM "Reject &All Changes Shown",   ID_REVIEW_CHANGES_REJECT_ALLSHOWN
-
     MENUITEM "Reject All Changes in &Document", ID_REVIEW_CHANGES_REJECT_ALL
 END
 
-IDR_REVIEW_COMPARE_SHOWSOURCE MENU DISCARDABLE 
+IDR_REVIEW_COMPARE_SHOWSOURCE MENU
 BEGIN
     MENUITEM "&Hide Source Documents",      ID_REVIEW_COMPARE_SHOWSOURCE_HIDESOURCE
-
     MENUITEM "Show &Original",              ID_REVIEW_COMPARE_SHOWSOURCE_SHOWORIGINAL
-
     MENUITEM "Show &Revised",               ID_REVIEW_COMPARE_SHOWSOURCE_SHOWREVISED
-
-    MENUITEM "Show &Both",                  ID_REVIEW_COMPARE_SHOWSOURCE_SHOWBOTH
-    , CHECKED
+    MENUITEM "Show &Both",                  ID_REVIEW_COMPARE_SHOWSOURCE_SHOWBOTH, CHECKED
 END
 
-IDR_REVIEW_COMPARE_COMPARE_COMPARE MENU DISCARDABLE 
+IDR_REVIEW_COMPARE_COMPARE_COMPARE MENU
 BEGIN
     MENUITEM "&Compare...",                 ID_REVIEW_COMPARE_COMPARE_COMPARE
-
     MENUITEM "Co&mbine...",                 ID_REVIEW_COMPARE_COMPARE_COMBINE
-
 END
 
 
@@ -1556,20 +1374,18 @@ END
 // Accelerator
 //
 
-IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+IDR_MAINFRAME ACCELERATORS
 BEGIN
     "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
     "B",            ID_FONT_BOLD,           VIRTKEY, CONTROL, NOINVERT
-    "B",            ID_FONT_BOLD,           VIRTKEY, SHIFT, CONTROL, 
-                                                    NOINVERT
+    "B",            ID_FONT_BOLD,           VIRTKEY, SHIFT, CONTROL, NOINVERT
     "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
     "E",            ID_PARA_CENTER,         VIRTKEY, CONTROL, NOINVERT
     "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
     "G",            ID_EDIT_GOTO,           VIRTKEY, CONTROL, NOINVERT
     "H",            ID_EDIT_REPLACE,        VIRTKEY, CONTROL, NOINVERT
     "I",            ID_FONT_ITALIC,         VIRTKEY, CONTROL, NOINVERT
-    "I",            ID_FONT_ITALIC,         VIRTKEY, SHIFT, CONTROL, 
-                                                    NOINVERT
+    "I",            ID_FONT_ITALIC,         VIRTKEY, SHIFT, CONTROL, NOINVERT
     "L",            ID_PARA_ALIGNLEFT,      VIRTKEY, CONTROL, NOINVERT
     "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
     "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
@@ -1577,8 +1393,7 @@ BEGIN
     "R",            ID_PARA_ALIGNRIGHT,     VIRTKEY, CONTROL, NOINVERT
     "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
     "U",            ID_FONT_UNDERLINE,      VIRTKEY, CONTROL, NOINVERT
-    "U",            ID_FONT_UNDERLINE,      VIRTKEY, SHIFT, CONTROL, 
-                                                    NOINVERT
+    "U",            ID_FONT_UNDERLINE,      VIRTKEY, SHIFT, CONTROL, NOINVERT
     "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
     VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
     VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
@@ -1594,7 +1409,7 @@ BEGIN
     "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
 END
 
-IDR_CNTR_INPLACE ACCELERATORS PRELOAD MOVEABLE PURE 
+IDR_CNTR_INPLACE ACCELERATORS
 BEGIN
     "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
     "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
@@ -1606,7 +1421,6 @@ BEGIN
 END
 
 
-#ifndef _MAC
 /////////////////////////////////////////////////////////////////////////////
 //
 // Version
@@ -1629,15 +1443,13 @@ BEGIN
     BEGIN
         BLOCK "040904B0"
         BEGIN
-            VALUE "CompanyName", "\0"
-            VALUE "FileDescription", "MSOffice2007Demo MFC Application\0"
-            VALUE "FileVersion", "1, 0, 0, 1\0"
-            VALUE "InternalName", "MSOffice2007Demo\0"
-            VALUE "LegalCopyright", "Copyright (C) 2006\0"
-            VALUE "LegalTrademarks", "\0"
-            VALUE "OriginalFilename", "MSOffice2007Demo.EXE\0"
-            VALUE "ProductName", "MSOffice2007Demo Application\0"
-            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "FileDescription", "MSOffice2007Demo MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "MSOffice2007Demo"
+            VALUE "LegalCopyright", "Copyright (C) 2006"
+            VALUE "OriginalFilename", "MSOffice2007Demo.EXE"
+            VALUE "ProductName", "MSOffice2007Demo Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
         END
     END
     BLOCK "VarFileInfo"
@@ -1645,8 +1457,6 @@ BEGIN
         VALUE "Translation", 0x409, 1200
     END
 END
-
-#endif    // !_MAC
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -1661,33 +1471,28 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "MSOffice2007Demo Application Version 1.0",IDC_STATIC,40,10,119,8
-    LTEXT           "Â© 2007 - 2008 Microsoft Corporation.  All rights reserved.",
-                    IDC_STATIC,40,25,122,19
+    LTEXT           "© 2007 - 2008 Microsoft Corporation.  All rights reserved.",IDC_STATIC,40,25,122,19
     DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
 END
 
-IDD_POPULAR_PAGE DIALOG DISCARDABLE  0, 0, 293, 206
-STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+IDD_POPULAR_PAGE DIALOG 0, 0, 293, 206
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
 CAPTION "Popular"
 FONT 8, "MS Sans Serif"
 BEGIN
-    CONTROL         "Show &Mini Toolbar on selection",IDC_SHOW_FLOATY,"Button",
-                    BS_AUTOCHECKBOX | WS_TABSTOP,29,31,115,10
+    CONTROL         "Show &Mini Toolbar on selection",IDC_SHOW_FLOATY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,31,115,10
     CONTROL         "Show &Developer tab in the Ribbon",IDC_SHOW_DEV_TAB,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,47,125,10
-    CONTROL         "Show &KeyTips",IDC_SHOW_KEY_TIPS,"Button",
-                    BS_AUTOCHECKBOX | WS_TABSTOP,29,65,61,10
+    CONTROL         "Show &KeyTips",IDC_SHOW_KEY_TIPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,29,65,61,10
     LTEXT           "&Color scheme:",IDC_STATIC,29,90,46,8
-    COMBOBOX        IDC_COLOR_SCHEME,85,90,75,203,CBS_DROPDOWNLIST | 
-                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COLOR_SCHEME,85,90,75,203,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT           "Sc&reentip style:",IDC_STATIC,29,114,49,8
-    COMBOBOX        IDC_SCREENTIP_STYLE,85,111,174,203,CBS_DROPDOWNLIST | 
-                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SCREENTIP_STYLE,85,111,174,203,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT           "Top options for Working with Demo",IDC_BANER,7,0,283,13
 END
 
-IDD_RES_PAGE DIALOG DISCARDABLE  0, 0, 293, 206
-STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+IDD_RES_PAGE DIALOG 0, 0, 293, 206
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
 CAPTION "Resources"
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -1708,7 +1513,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO DISCARDABLE 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_POPULAR_PAGE, DIALOG
     BEGIN
@@ -1772,24 +1577,24 @@ END
 // String Table
 //
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     IDP_FAILED_TO_CREATE    "Failed to create object.  Make sure the object is entered in the system registry."
     IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
 END
 
-STRINGTABLE PRELOAD DISCARDABLE 
+STRINGTABLE
 BEGIN
     IDR_MAINFRAME           "MSOffice2007Demo\n\nMSOffice2007\n\n\nMSOffice2007Demo.Document\nMSOffice2007 Document"
 END
 
-STRINGTABLE PRELOAD DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_APP_TITLE       "MSOffice2007 Demo"
     AFX_IDS_IDLEMESSAGE     "Ready"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_INDICATOR_EXT        "EXT"
     ID_INDICATOR_CAPS       "CAP"
@@ -1799,7 +1604,7 @@ BEGIN
     ID_INDICATOR_REC        "REC"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_NEW             "\nNew"
     ID_FILE_OPEN            "\nOpen"
@@ -1813,13 +1618,13 @@ BEGIN
     ID_FILE_PRINT_PREVIEW   "Preview and make changes to pages before printing.\nPrint Preview"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_APP_ABOUT            "Display program information, version number and copyright.\nAbout"
     ID_APP_EXIT             "\nExit"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_MRU_FILE1       "Open this document"
     ID_FILE_MRU_FILE2       "Open this document"
@@ -1839,18 +1644,18 @@ BEGIN
     ID_FILE_MRU_FILE16      "Open this document"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_NEXT_PANE            "Switch to the next window pane.\nNext Pane"
     ID_PREV_PANE            "Switch back to the previous window pane.\nPrevious Pane"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_WINDOW_SPLIT         "Split the active window into panes.\nSplit"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_CLEAR           "Erase the selection.\nErase"
     ID_EDIT_CLEAR_ALL       "Erase everything.\nErase All"
@@ -1867,20 +1672,20 @@ BEGIN
     ID_EDIT_REDO            "Redo the previously undone action.\nRedo"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_TOOLBAR         "Show or hide the toolbar.\nToggle ToolBar"
     ID_VIEW_STATUS_BAR      "Show or hide the status bar.\nToggle StatusBar"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_OLE_INSERT_NEW       "Insert new embedded object.\nNew Object"
     ID_OLE_EDIT_LINKS       "Edit linked objects.\nEdit Links"
     ID_OLE_EDIT_CONVERT     "Convert object to different type.\nConvert Object"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_OLE_VERB_FIRST       "Activate embedded or linked object"
     57873                   "Activate embedded or linked object"
@@ -1888,7 +1693,7 @@ BEGIN
     57875                   "Activate embedded or linked object"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCSIZE          "Change the window size"
     AFX_IDS_SCMOVE          "Change the window position"
@@ -1899,18 +1704,18 @@ BEGIN
     AFX_IDS_SCCLOSE         "Close the active window and prompt to save the documents"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_SCRESTORE       "Restore the window to normal size"
     AFX_IDS_SCTASKLIST      "Activate Task List"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     AFX_IDS_PREVIEW_CLOSE   "Close print preview mode.\nCancel Preview"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_STATUSBAR_PAGE       "\nFormatted Page Number"
     ID_STATUSBAR_REFRESH    "\nShow Progress Bar"
@@ -1924,93 +1729,200 @@ BEGIN
     ID_TABLE_DRAWTABLE      "Draw the borders of a table.\nDraw table"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
+    ID_PAGELAYOUT_TEXTWRAPPING_THROUGH "Through.\nThrough"
+    ID_PAGELAYOUT_TEXTWRAPPING_TIGHT "Tight.\nTight"
+    ID_PAGELAYOUT_TEXTWRAPPING_TOPANDBOTTOM "Top and Bottom.\nTop and Bottom"
     ID_VIEW_MESSAGEBAR      "Open the Message Bar to complete any required actions on the document.\nMessage Bar"
     ID_VIEW_APPLOOK_2003    "Activate Office 2003 application look.\nOffice 2003 Look"
     ID_VIEW_APPLOOK_2007_1  "Activate Office 2007 application look.\nOffice 2007 Look"
     ID_VIEW_APPLOOK_2007_2  "Activate Office 2007 application look.\nOffice 2007 Look"
     ID_VIEW_APPLOOK_2007_3  "Activate Office 2007 application look.\nOffice 2007 Look"
     ID_VIEW_APPLOOK_2007_4  "Activate Office 2007 application look.\nOffice 2007 Look"
-    ID_VIEW_APPLOOK_WIN7  	"Activate Windows 7 application look\nWindows 7 Look"
-    ID_VIEW_ARRANGEALL      "Arrange All.\nArrange All"
+    ID_VIEW_APPLOOK_WIN7    "Activate Windows 7 application look\nWindows 7 Look"
     ID_VIEW_COMPARE         "View Side by Side.\nView Side by Side"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
+    ID_FONT_NOT_FOUND       "The font '%s' is not available on your system!"
+    ID_VIEW_ARRANGEALL      "Arrange All.\nArrange All"
+END
+
+STRINGTABLE
+BEGIN
+    ID_STATUSBAR_LINK       "Click here to open Microsoft Web site and get more information about our products"
+    ID_VIEW_ZOOM_100        "Zoom the document to 100% of the normal size.\n100%"
+    ID_VIEW_ZOOM_ONE_PAGE   "One Page.\nOne Page"
+    ID_VIEW_ZOOM_TWO_PAGES  "Two Pages.\nTwo Pages"
+    ID_VIEW_ZOOM_PAGE_WIDTH "Page Width.\nPage Width"
+    ID_VIEW_MACROS          "Macros.\nMacros"
     ID_PAGELAYOUT_THEMES    "Themes.\nThemes"
-    ID_PAGELAYOUT_THEMES_RESETFROMTEMPLATE "Reset to Theme from Template.\nReset to Theme from Template"
-    ID_PAGELAYOUT_THEMES_MORETHEMES "More Themes.\nMore Themes"
-    ID_PAGELAYOUT_THEMES_BROWSEFORTHEMES "Browse for Themes.\nBrowse for Themes"
-    ID_PAGELAYOUT_THEMES_SAVECURRENTTHEME "Save Current Theme.\nSave Current Theme"
     ID_PAGELAYOUT_COLORS    "Colors.\nColors"
-    ID_PAGELAYOUT_FONTS     "Fonts.\nFonts"
     ID_PAGELAYOUT_EFFECTS   "Effects.\nEffects"
     ID_PAGELAYOUT_MARGINS   "Margins.\nMargins"
     ID_PAGELAYOUT_ORIENTATION "Orientation.\nOrientation"
-    ID_PAGELAYOUT_PAGESETUP_SIZE "Size.\nSize"
     ID_PAGELAYOUT_COLUMNS   "Columns.\nColumns"
-    ID_PAGELAYOUT_PAGESETUP_BREAKS "Breaks.\nBreaks"
-    ID_PAGELAYOUT_PAGESETUP_LINENUMBERS "Line Numbers.\nLine Numbers"
-    ID_PAGELAYOUT_PAGESETUP_HYPHENATION "Hyphenation.\nHyphenation"
-    ID_PAGELAYOUT_PAGEBACKGROUND_WATERMARK "Watermark.\nWatermark"
-    ID_PAGELAYOUT_PAGEBACKGROUND_PAGECOLOR "Page Color.\nPage Color"
-    ID_PAGELAYOUT_PAGEBACKGROUND_PAGEBORDERS "Page Borders.\nPage Borders"
-    ID_PAGELAYOUT_ARRANGE_POSITION "Position.\nPosition"
-    ID_PAGELAYOUT_BRINGTOFRONT "Bring to Front.\nBring to Front"
-    ID_PAGELAYOUT_BRINGFORWARD "Bring Forward.\n Bring Forward"
-    ID_PAGELAYOUT_BRINGINFRONTOFTEXT "Bring in Front of Text.\nBring in Front of Text"
-    ID_PAGELAYOUT_SENDTOBACK "Send to Back.\nSend to Back"
+    ID_TABLE_OF_CONTENTS    "Table of Contents.\nTable of Contents"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PAGELAYOUT_THEMES_RESETFROMTEMPLATE 
+                            "Reset to Theme from Template.\nReset to Theme from Template"
+    ID_PAGELAYOUT_THEMES_MORETHEMES "More Themes.\nMore Themes"
+    ID_TABLE_HEADERROW      "Header Row.\nHeader Row"
+    ID_TABLE_TOTALROW       "Total Row.\nTotal Row"
+    ID_TABLE_BANDEDROWS     "Banded Rows.\nBanded Row"
+    ID_TABLE_FIRSTCOLUMN    "First Column.\nFirst Column"
+    ID_TABLE_LASTCOLUMN     "Last Column.\nLast Column"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REFERENCES_TA_MARKCITATION "Mark Citation.\nMark Citation"
+    ID_REFERENCES_TA_UPDATETABLE "Update Table.\nUpdate Table"
+    ID_REFERENCES_TC_UPDATETABLE "Update Table.\nUpdate Table"
+    ID_PAGELAYOUT_THEMES_SAVECURRENTTHEME 
+                            "Save Current Theme.\nSave Current Theme"
+    ID_EDIT_SELECTOBJECTS   "Change to the selection cursor so that you can select and move ink and other objects in the document.\nSelect Objects"
     ID_PAGELAYOUT_SENDBACKWARD "Send Backward.\nSend Backward"
     ID_PAGELAYOUT_SENDBEHINDTEXT "Send Behind Text.\nSend Behind Text"
-    ID_PAGELAYOUT_TEXTWRAPPING "Text Wrapping.\nText Wrapping"
-    ID_PAGELAYOUT_TEXTWRAPPING_INLINEWITHTEXT "In Line with Text.\nIn Line with Text"
+    ID_PAGELAYOUT_SENDTOBACK "Send to Back.\nSend to Back"
     ID_PAGELAYOUT_TEXTWRAPPING_SQUARE "Square.\nSquare"
-    ID_PAGELAYOUT_TEXTWRAPPING_TIGHT "Tight.\nTight"
-    ID_PAGELAYOUT_TEXTWRAPPING_BEHINDTEXT "Behind Text.\nBehind Text"
-    ID_PAGELAYOUT_TEXTWRAPPING_INFRONTOFTEXT "In Front of Text.\nIn Front of Text"
-    ID_PAGELAYOUT_TEXTWRAPPING_TOPANDBOTTOM "Top and Bottom.\nTop and Bottom"
-    ID_PAGELAYOUT_TEXTWRAPPING_THROUGH "Through.\nThrough"
-    ID_PAGELAYOUT_TEXTWRAPPING_EDITWRAPPOINTS "Edit Wrap Points.\nEdit Wrap Points"
-    ID_PAGELAYOUT_MORELAYOUTOPTIONS "More Layout Options.\nMore Layout Options"
-    ID_PAGELAYOUT_ARRANGE_ALIGN "Align.\nAlign"
+    ID_PAGELAYOUT_THEMES_BROWSEFORTHEMES 
+                            "Browse for Themes.\nBrowse for Themes"
+    ID_VIEW_TASK_PANE       "View Task Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PAGELAYOUT_FONTS     "Fonts.\nFonts"
+    ID_PARA_ALIGNLEFT       "Align text to the left.\nAlign Text Left"
+    ID_PARA_ALIGNRIGHT      "Align text to the right.\nAlign Text Right"
+    ID_PARA_BORDER          "Border.\nBorder"
+    ID_PARA_BULLETS         "Start a bulleted list.\nBullets"
+    ID_PARA_CENTER          "Center text.\nCenter"
+    ID_PARA_DECREASEINDENT  "Decrease the indent level of the paragraph.\nDecrease Indent"
+    ID_PARA_DEFINENEWBULLET "\nDefine New Bullet"
+    ID_PARA_DEFINENEWLISTSTYLE "Define New List Style.\nDefine New List Style"
+    ID_PARA_DEFINENEWMULTILEVELLIST 
+                            "Define New Multilevel List.\nDefine New Multilevel List"
+    ID_PARA_DEFINENEWNUMBERFORMAT "\nDefine New Number Format"
+    ID_PARA_ENDLINEMARK     "Show paragraph marks and other hidden formatting symbols.\nShow/Hide"
+    ID_PARA_INCREASEINDENT  "Increase the indent level of the paragraph.\nIncrease Indent"
+    ID_PARA_JUSTIFY         "Align text to both the left and right margins, adding extra space between words as necessary.\nJustify"
+END
+
+STRINGTABLE
+BEGIN
     ID_PAGELAYOUT_ARRANGE_GROUP "Group.\nGroup"
+    ID_PAGELAYOUT_ARRANGE_POSITION "Position.\nPosition"
     ID_PAGELAYOUT_ARRANGE_ROTATE "Rotate.\nRotate"
+    ID_PAGELAYOUT_PAGEBACKGROUND_PAGEBORDERS "Page Borders.\nPage Borders"
+    ID_PAGELAYOUT_PAGEBACKGROUND_PAGECOLOR "Page Color.\nPage Color"
+    ID_PAGELAYOUT_PAGEBACKGROUND_WATERMARK "Watermark.\nWatermark"
+    ID_PAGELAYOUT_PAGESETUP_BREAKS "Breaks.\nBreaks"
+    ID_PAGELAYOUT_PAGESETUP_HYPHENATION "Hyphenation.\nHyphenation"
+    ID_PAGELAYOUT_PAGESETUP_LINENUMBERS "Line Numbers.\nLine Numbers"
+    ID_PAGELAYOUT_PAGESETUP_SIZE "Size.\nSize"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
-    ID_TABLE_OF_CONTENTS    "Table of Contents.\nTable of Contents"
+    ID_PAGELAYOUT_TEXTWRAPPING_BEHINDTEXT "Behind Text.\nBehind Text"
+    ID_PAGELAYOUT_BRINGFORWARD "Bring Forward.\n Bring Forward"
+    ID_PAGELAYOUT_BRINGINFRONTOFTEXT 
+                            "Bring in Front of Text.\nBring in Front of Text"
+    ID_PAGELAYOUT_BRINGTOFRONT "Bring to Front.\nBring to Front"
+    ID_FILE_SEND_EMAIL      "Send a copy of the document in an e-mail message as an attachment.\nEmail"
+    ID_STOP_HIGHLIGHTING    "\nStop Highlighting"
+    ID_STATUSBAR_LINE       "\nLine number in page"
+    ID_STATUSBAR_COLUMN     "\nColumn number in page"
+    ID_STATUSBAR_PROGRESS   "Progress"
+    ID_FILE_SEND_FAX        "Use an Internet fax service to fax the document.\nFax"
+END
+
+STRINGTABLE
+BEGIN
     ID_REFERENCES_ADDTEXT   "Add Text.\nAdd Text"
-    ID_REFERENCES_TC_UPDATETABLE "Update Table.\nUpdate Table"
-    ID_REFERENCES_FOOTNOTES_INSERTFOOTNOTE "Insert Footnote.\nInsert Footnote"
-    ID_REFERENCES_FOOTNOTES_INSERTENDNOTE "Insert Endnote.\nInsert Endnote"
-    ID_REFERENCES_FOOTNOTE_NEXT "Next Footnote.\nNext Footnote"
-    ID_REFERENCES_FOOTNOTES_SHOWNOTES "Show Notes.\nShow Notes"
     ID_INSERT_CITATION      "Insert Citation.\nInsert Citation"
+    ID_PAGELAYOUT_TEXTWRAPPING "Text Wrapping.\nText Wrapping"
+    ID_PAGELAYOUT_TEXTWRAPPING_INFRONTOFTEXT 
+                            "In Front of Text.\nIn Front of Text"
+    ID_PAGELAYOUT_TEXTWRAPPING_INLINEWITHTEXT 
+                            "In Line with Text.\nIn Line with Text"
     ID_REFERENCES_CB_MANAGESOURCES "Manage Sources.\nManage Sources"
-    ID_REFERENCES_STYLE     "Select Style.\nSelect Style"
-    ID_REFERENCES_CB_INSERTBIBLIOGRAPHY "Bibliography.\nBibliography"
-    ID_REFERENCES_CAPTIONS_INSERTCAPTION "Insert Caption.\nInsert Caption"
-    ID_REFERENCES_CAPTIONS_INSERTTOF "Insert Table of Figures.\nInsert Table of Figures"
-    ID_REFERENCES_CAPTIONS_UPDATETABLE "Update Table.\nUpdate Table"
-    ID_REFERENCES_CAPTIONS_CROSSREFERENCE "Cross Reference.\nCross Reference"
-    ID_REFERENCES_INDEX_MARKENTRY "Mark Entry.\nMark Entry"
-    ID_REFERENCES_INDEX_INSERTINDEX "Insert Index.\nInsert Index"
-    ID_REFERENCES_INDEX_UPDATEINDEX "Update Index.\nUpdate Index"
-    ID_REFERENCES_TA_MARKCITATION "Mark Citation.\nMark Citation"
-    ID_REFERENCES_TA_INSERTTOA "Insert Table of Authorities.\nInsert Table of Authorities"
-    ID_REFERENCES_TA_UPDATETABLE "Update Table.\nUpdate Table"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
-    ID_REVIEW_PROOFING_SPELLINGGRAMMAR "Spelling and Grammar.\nSpelling and Grammar"
+    ID_PAGELAYOUT_TEXTWRAPPING_EDITWRAPPOINTS 
+                            "Edit Wrap Points.\nEdit Wrap Points"
+    ID_WRITE_CLIPBOARD      "Show the Office Clipboard task pane.\nOffice Clipboard"
+    ID_WRITE_FONT           "Show the Font dialog box.\nFont Dialog"
+    ID_WRITE_PARAGRAPH      "Show the Paragraph dialog box.\nParagraph Dialog"
+    ID_WRITE_STYLE          "Show the Styles window.\nStyles"
+    ID_PARA_PAGESETUP       "Show the page setup dialog box.\nPage Setup"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INSERT_CURRENTPOSITION "Current Position.\nCurrent Position"
+    ID_INSERT_DRAWTEXTBOX   "Draw Text Box.\nDraw Text Box"
+    ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY 
+                            "Save Selection to Text Box Gallery.\nSave Selection to Text Box Gallery"
+    ID_PAGELAYOUT_MORELAYOUTOPTIONS 
+                            "More Layout Options.\nMore Layout Options"
+    ID_STYLECHANGE_COLORS   "\nColors"
+    ID_STYLECHANGE_FONTS    "\nFonts"
+    ID_STYLECHANGE_SETDEFAULT "\nSet as Default"
+    ID_STYLECHANGE_STYLESET "\nStyle Set"
+    ID_FILE_PUBLISH         "\nPublish"
+    ID_FILE_PUBLISH_BLOG    "Create a new blog post with the content of the document..\nBlog"
+    ID_FILE_SAVE_AS_DOCUMENT 
+                            "Save the document in the default file format.\nWord Document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MAILINGS_TYPENEWLIST "Type New List.\nType New List"
+    ID_MAILINGS_UPDATELABELS "Update Labels.\nUpdate Labels"
+    ID_MAILINGS_USEEXISTINGLIST "Use Existing List.\nUse Existing List"
+    ID_MAILINGS_VIEWMERGEDDATA "View Merged Data.\nView Merged Data"
+    ID_REFERENCES_FOOTNOTE_NEXT "Next Footnote.\nNext Footnote"
+    ID_PAGELAYOUT_ARRANGE_ALIGN "Align.\nAlign"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REFERENCES_CAPTIONS_CROSSREFERENCE "Cross Reference.\nCross Reference"
+    ID_REFERENCES_CAPTIONS_INSERTCAPTION "Insert Caption.\nInsert Caption"
+    ID_REFERENCES_CAPTIONS_INSERTTOF 
+                            "Insert Table of Figures.\nInsert Table of Figures"
+    ID_REFERENCES_CAPTIONS_UPDATETABLE "Update Table.\nUpdate Table"
+    ID_REFERENCES_CB_INSERTBIBLIOGRAPHY "Bibliography.\nBibliography"
+    ID_REFERENCES_STYLE     "Select Style.\nSelect Style"
+    ID_REFERENCES_FOOTNOTES_INSERTENDNOTE "Insert Endnote.\nInsert Endnote"
+    ID_REFERENCES_FOOTNOTES_INSERTFOOTNOTE "Insert Footnote.\nInsert Footnote"
+    ID_REFERENCES_FOOTNOTES_SHOWNOTES "Show Notes.\nShow Notes"
+    ID_REFERENCES_INDEX_INSERTINDEX "Insert Index.\nInsert Index"
+    ID_REFERENCES_INDEX_MARKENTRY "Mark Entry.\nMark Entry"
+    ID_REFERENCES_INDEX_UPDATEINDEX "Update Index.\nUpdate Index"
+    ID_REFERENCES_TA_INSERTTOA 
+                            "Insert Table of Authorities.\nInsert Table of Authorities"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REVIEW_PROOFING_SPELLINGGRAMMAR 
+                            "Spelling and Grammar.\nSpelling and Grammar"
     ID_REVIEW_PROOFING_RESEARCH "Research.\nResearch"
     ID_REVIEW_PROOFING_THESAURUS "Thesaurus.\nThesaurus"
     ID_REVIEW_PROOFING_TRANSLATE "Translate.\nTranslate"
-    ID_REVIEW_PROOFING_TRANSLATIONSCREENTIP "Translation Screen Tip.\nTranslation Screen Tip"
+    ID_REVIEW_PROOFING_TRANSLATIONSCREENTIP 
+                            "Translation Screen Tip.\nTranslation Screen Tip"
     ID_REVIEW_PROOFING_SETLANGUAGE "Set Language.\nSet Language"
     ID_REVIEW_PROOFING_WORDCOUNT "Word Count.\nWord Count"
     ID_REVIEW_COMMENTS_NEWCOMMENT "New Comment.\nNew Comment"
@@ -2018,19 +1930,30 @@ BEGIN
     ID_REVIEW_COMMENTS_PREVIOUS "Previous Comment.\nPrevious Comment"
     ID_REVIEW_COMMENTS_NEXT "Next Comment.\nNext Comment"
     ID_REVIEW_TRACKING_TRACKCHANGES "Track Changes.\nTrack Changes"
+END
+
+STRINGTABLE
+BEGIN
     ID_REVIEW_TRACKING_BALLOONS "Balloons.\nBalloons"
+    ID_REVIEW_TRACKING_DISPLAYFORREVIEW 
+                            "Choose how to display the proposed changes to the document.\nDisplay for Review"
     ID_REVIEW_TRACKING_SHOW_MARKUP "Show Markup.\nShow Markup"
     ID_REVIEW_TRACKING_REVIEWINGPANE "Reviewing Pane.\nReviewing Pane"
+END
+
+STRINGTABLE
+BEGIN
     ID_REVIEW_CHANGES_ACCEPT "Accept Change.\nAccept Change"
     ID_REVIEW_CHANGES_REJECT "Reject Change.\nReject Change"
     ID_REVIEW_CHANGES_PREVIOUS "Previous Change.\nPrevious Change"
-    ID_REVIEW_CHANGES_NEXT "Next Change.\nNext Change"
+    ID_REVIEW_CHANGES_NEXT  "Next Change.\nNext Change"
+    ID_REVIEW_PROTECT       "Protect Document.\nProtect Document"
     ID_REVIEW_COMPARE_COMPARE "Compare.\nCompare"
-    ID_REVIEW_COMPARE_SHOWSOURCE "Show Source Documents.\nShow Source Documents"
-    ID_REVIEW_PROTECT "Protect Document.\nProtect Document"
+    ID_REVIEW_COMPARE_SHOWSOURCE 
+                            "Show Source Documents.\nShow Source Documents"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_CUSTOMIZE       "Customize toolbars and menus.\nCustomize"
     ID_VIEW_DOCUMENTMAP     "Document Map.\nDocument Map"
@@ -2049,23 +1972,7 @@ BEGIN
     ID_VIEW_TRUMBNAILS      "Thumbnails.\nThumbnails"
 END
 
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_STATUSBAR_LINK       "Click here to open Microsoft Web site and get more information about our products"
-    ID_VIEW_ZOOM_100        "Zoom the document to 100% of the normal size.\n100%"
-    ID_VIEW_ZOOM_ONE_PAGE   "One Page.\nOne Page"
-    ID_VIEW_ZOOM_TWO_PAGES  "Two Pages.\nTwo Pages"
-    ID_VIEW_ZOOM_PAGE_WIDTH "Page Width.\nPage Width"
-    ID_VIEW_MACROS          "Macros.\nMacros"
-END
-
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_EDIT_SELECTOBJECTS   "Change to the selection cursor so that you can select and move ink and other objects in the document.\nSelect Objects"
-    ID_VIEW_TASK_PANE       "View Task Pane"
-END
-
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_VIEW_WEBLAYOUT       "Web Layout.\nWeb Layout"
     ID_VIEW_ZOOM            "Open the Zoom dialog.\nZoom"
@@ -2079,42 +1986,7 @@ BEGIN
     ID_WRITE_SELECT         "Select text or objects in the document.\nSelect"
 END
 
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_WRITE_CLIPBOARD      "Show the Office Clipboard task pane.\nOffice Clipboard"
-    ID_WRITE_FONT           "Show the Font dialog box.\nFont Dialog"
-    ID_WRITE_PARAGRAPH      "Show the Paragraph dialog box.\nParagraph Dialog"
-    ID_WRITE_STYLE          "Show the Styles window.\nStyles"
-    ID_PARA_PAGESETUP       "Show the page setup dialog box.\nPage Setup"
-END
-
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_INSERT_CURRENTPOSITION "Current Position.\nCurrent Position"
-    ID_INSERT_DRAWTEXTBOX   "Draw Text Box.\nDraw Text Box"
-    ID_INSERT_SAVESELECTIONTOTEXTBOXGALLERY 
-                            "Save Selection to Text Box Gallery.\nSave Selection to Text Box Gallery"
-    ID_STYLECHANGE_COLORS   "\nColors"
-    ID_STYLECHANGE_FONTS    "\nFonts"
-    ID_STYLECHANGE_SETDEFAULT "\nSet as Default"
-    ID_STYLECHANGE_STYLESET "\nStyle Set"
-    ID_FILE_PUBLISH         "\nPublish"
-    ID_FILE_PUBLISH_BLOG    "Create a new blog post with the content of the document..\nBlog"
-    ID_FILE_SAVE_AS_DOCUMENT 
-                            "Save the document in the default file format.\nWord Document"
-END
-
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_FILE_SEND_EMAIL      "Send a copy of the document in an e-mail message as an attachment.\nEmail"
-    ID_STOP_HIGHLIGHTING    "\nStop Highlighting"
-    ID_STATUSBAR_LINE       "\nLine number in page"
-    ID_STATUSBAR_COLUMN     "\nColumn number in page"
-    ID_STATUSBAR_PROGRESS   "Progress"
-    ID_FILE_SEND_FAX        "Use an Internet fax service to fax the document.\nFax"
-END
-
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_INSERT_REMOVEHEADER  "Remove Header.\nRemove Header"
     ID_INSERT_REMOVEPAGENUMBERS "Remove Page Numbers.\nRemove Page Numbers"
@@ -2137,7 +2009,7 @@ BEGIN
     ID_STATUSBAR_MASTER_DOCUMENT_TOOLS "\nOutline"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_STATUSBAR_PRINTLAYOUT "\nPrint Layout"
     ID_INSERT_FOOTER        "Footer.\nFooter"
@@ -2159,13 +2031,14 @@ BEGIN
     ID_INSERT_REMOVEFOOTER  "Remove Footer.\nRemove Footer"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_STATUSBAR_ZOOM_SLIDER "\nZoom"
     ID_STATUSBAR_ZOOM       "\nZoom level. Click to open Zoom dialog box"
     ID_SET_STYLE            "Style"
     ID_MAILINGS_ADDRESSBLOCK "Address Block.\nAddress Block"
-    ID_MAILINGS_AUTOCHECHERRORS "Auto Check for Errors.\nAuto Check for Errors"
+    ID_MAILINGS_AUTOCHECHERRORS 
+                            "Auto Check for Errors.\nAuto Check for Errors"
     ID_MAILINGS_CREATE      "Create Envelopes.\nCreate Envelopes"
     ID_MAILINGS_CREATELABELS "Create Labels.\nCreate Labels"
     ID_MAILINGS_DIRECTORY   "Directory.\nDirectory"
@@ -2178,7 +2051,7 @@ BEGIN
     ID_MAILINGS_GOTORECORD  "Go to Record.\nGo to Record"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_EDIT_COPYFORMAT      "Copy formatting from one place and applying to another.\nFormat Painter"
     ID_FILE_PUBLISH_DOCMANAGE_SERVER 
@@ -2199,7 +2072,7 @@ BEGIN
     ID_FONT_UNDERLINE       "Underline the selected text.\nUnderline"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_PUBLISH_CREATE_DOCWORKSPACE 
                             "Create a new site for the document and keep the local copy synchronized.\nCreate Document Workspace"
@@ -2220,25 +2093,7 @@ BEGIN
     ID_INSERT_EQUATION      "Equation.\nEquation"
 END
 
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_PARA_ALIGNLEFT       "Align text to the left.\nAlign Text Left"
-    ID_PARA_ALIGNRIGHT      "Align text to the right.\nAlign Text Right"
-    ID_PARA_BORDER          "Border.\nBorder"
-    ID_PARA_BULLETS         "Start a bulleted list.\nBullets"
-    ID_PARA_CENTER          "Center text.\nCenter"
-    ID_PARA_DECREASEINDENT  "Decrease the indent level of the paragraph.\nDecrease Indent"
-    ID_PARA_DEFINENEWBULLET "\nDefine New Bullet"
-    ID_PARA_DEFINENEWLISTSTYLE "Define New List Style.\nDefine New List Style"
-    ID_PARA_DEFINENEWMULTILEVELLIST 
-                            "Define New Multilevel List.\nDefine New Multilevel List"
-    ID_PARA_DEFINENEWNUMBERFORMAT "\nDefine New Number Format"
-    ID_PARA_ENDLINEMARK     "Show paragraph marks and other hidden formatting symbols.\nShow/Hide"
-    ID_PARA_INCREASEINDENT  "Increase the indent level of the paragraph.\nIncrease Indent"
-    ID_PARA_JUSTIFY         "Align text to both the left and right margins, adding extra space between words as necessary.\nJustify"
-END
-
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_PARA_LINESPACING     "Change the spacing between lines of text.\nLine Spacing"
     ID_PARA_LINESPACINGAFTER 
@@ -2253,7 +2108,7 @@ BEGIN
     ID_PARA_SORT            "Alphabetize the selected text or sort numerical data.\nSort"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_MAILINGS_GREETINGLINE "Greeting Line.\nGreeting Line"
     ID_MAILINGS_HIGHLIGHT   "Highlight.\nHighlight"
@@ -2274,21 +2129,12 @@ BEGIN
                             "Step by Step Mail Merge Wizard...\nStep by Step Mail Merge Wizard"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
-    ID_MAILINGS_TYPENEWLIST "Type New List.\nType New List"
-    ID_MAILINGS_UPDATELABELS "Update Labels.\nUpdate Labels"
-    ID_MAILINGS_USEEXISTINGLIST "Use Existing List.\nUse Existing List"
-    ID_MAILINGS_VIEWMERGEDDATA "View Merged Data.\nView Merged Data"
-    ID_TABLE_HEADERROW      "Header Row.\nHeader Row"
-    ID_TABLE_TOTALROW       "Total Row.\nTotal Row"
-    ID_TABLE_BANDEDROWS     "Banded Rows.\nBanded Row"
-    ID_TABLE_FIRSTCOLUMN    "First Column.\nFirst Column"
-    ID_TABLE_LASTCOLUMN     "Last Column.\nLast Column"
     ID_TABLE_BANDEDCOLUMNS  "Banded Columns.\nBanded Columns"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_FILE_SAVE_AS_TEMPLATE 
                             "Save the document as a template that can be used to format future documents.\nWord Template"
@@ -2308,13 +2154,7 @@ BEGIN
                             "Check for features not supported by earlier versions of Word.\nRun Compatibility Checker"
 END
 
-STRINGTABLE DISCARDABLE 
-BEGIN
-    ID_REVIEW_TRACKING_DISPLAYFORREVIEW "Choose how to display the proposed changes to the document.\nDisplay for Review"
-	ID_FONT_NOT_FOUND "The font '%s' is not available on your system!"
-END
-
-STRINGTABLE DISCARDABLE 
+STRINGTABLE
 BEGIN
     ID_BORDERS_BORDERSANDSHADING 
                             "Choose from various border options.\nBorders and Shading"
@@ -2323,7 +2163,25 @@ BEGIN
                             "Show or hide the gridlines within the table.\nView Table Gridlines"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON1             RT_RIBBON_XML           "res\\ribbon1.mfcribbon-ms"
+
+#endif    // English (United Kingdom) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -2338,7 +2196,7 @@ END
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
 LANGUAGE 9, 1
-#pragma code_page(65001)
+#pragma code_page(1252)
 #endif //_WIN32
 #include "res\MSOffice2007Demo.rc2"  // non-Microsoft Visual C++ edited resources
 #include "afxres.rc"         // Standard components
@@ -2348,6 +2206,7 @@ LANGUAGE 9, 1
 #include "afxribbon.rc"      // MFC ribbon resources
 #endif
 #endif
+
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
