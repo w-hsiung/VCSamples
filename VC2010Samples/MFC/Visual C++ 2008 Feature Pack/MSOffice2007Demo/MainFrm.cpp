@@ -193,10 +193,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		return -1;      // fail to create
 	};
 
-    //m_wndRibbonBar.SaveToXMLFile(_T("RibbonOutput.xml"));
-    m_wndRibbonBar.LoadFromResource(IDR_RIBBON1);
-
-	if (!CreateStatusBar())
+    if (!CreateStatusBar())
 	{
 		TRACE0("Failed to create status bar\n");
 		return -1;      // fail to create
@@ -352,67 +349,7 @@ BOOL CMainFrame::CreateRibbonBar()
 		return -1;      // fail to create
 	}
 
-	// Load panel images:
-	m_PanelImages.SetImageSize(CSize(16, 16));
-	if (!m_PanelImages.Load(IDB_BUTTONS))
-	{
-		TRACE0("Failed to load panel images\n");
-		return -1;
-	}
-
-	// Add main button:
-	AddMainCategory();
-
-	// Add tabs:
-	AddTab_Home();
-	AddTab_Insert();
-	AddTab_PageLayout();
-	AddTab_References();
-	AddTab_Mailings();
-	AddTab_Review();
-	AddTab_View();
-
-	if (theApp.m_bShowDevTab)
-	{
-		AddTab_Developer();
-	}
-
-	// Add context tabs:
-	AddContextTab_Picture();
-	AddContextTab_Chart();
-	AddContextTab_Table();
-
-	// Add quick access toolbar commands:
-	CMFCRibbonQuickAccessToolBarDefaultState qatState;
-
-	qatState.AddCommand(ID_FILE_NEW, FALSE);
-	qatState.AddCommand(ID_FILE_OPEN, FALSE);
-	qatState.AddCommand(ID_FILE_SAVE);
-	qatState.AddCommand(ID_FILE_SEND_EMAIL, FALSE);
-	qatState.AddCommand(ID_FILE_PRINT_DIRECT);
-	qatState.AddCommand(ID_FILE_PRINT_PREVIEW, FALSE);
-	qatState.AddCommand(ID_EDIT_UNDO);
-	qatState.AddCommand(ID_TABLE_DRAWTABLE, FALSE);
-
-	m_wndRibbonBar.SetQuickAccessDefaultState(qatState);
-
-	// Add elements to the right side of tabs:
-	CMFCRibbonButton* pVisualStyleButton = new CMFCRibbonButton(ID_SET_STYLE, _T("Style"), -1, -1);
-
-	pVisualStyleButton->SetMenu(IDR_THEME_MENU, FALSE /* No default command */, TRUE /* Right align */);
-
-	pVisualStyleButton->SetToolTipText(_T("Modify Visual Style"));
-	pVisualStyleButton->SetDescription(_T("Choose one of the following looks:\r\nMS Office 2003 or MS Office 2007"));
-	m_wndRibbonBar.AddToTabs(pVisualStyleButton);
-
-	m_wndRibbonBar.AddToTabs(new CMFCRibbonButton(ID_APP_ABOUT, _T(""), m_PanelImages.ExtractIcon(0)));
-
-	m_wndRibbonBar.EnableToolTips(theApp.m_bShowToolTips, theApp.m_bShowToolTipDescr);
-	m_wndRibbonBar.EnableKeyTips(theApp.m_bShowKeyTips);
-
-	SetKeys();
-
-	return TRUE;
+    return m_wndRibbonBar.LoadFromResource(IDR_RIBBON1);
 }
 
 void CMainFrame::AddMainCategory()
