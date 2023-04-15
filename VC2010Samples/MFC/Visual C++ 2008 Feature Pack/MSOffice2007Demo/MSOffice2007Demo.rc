@@ -17,7 +17,7 @@
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-#pragma code_page(1252)
+#pragma code_page(65001)
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -1471,7 +1471,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
     LTEXT           "MSOffice2007Demo Application Version 1.0",IDC_STATIC,40,10,119,8
-    LTEXT           "© 2007 - 2008 Microsoft Corporation.  All rights reserved.",IDC_STATIC,40,25,122,19
+    LTEXT           "Â© 2007 - 2008 Microsoft Corporation.  All rights reserved.",IDC_STATIC,40,25,122,19
     DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
 END
 
@@ -2172,7 +2172,7 @@ END
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
-#pragma code_page(1252)
+#pragma code_page(65001)
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2196,7 +2196,7 @@ IDR_RIBBON1             RT_RIBBON_XML           "res\\ribbon1.mfcribbon-ms"
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
 LANGUAGE 9, 1
-#pragma code_page(1252)
+#pragma code_page(65001)
 #endif //_WIN32
 #include "res\MSOffice2007Demo.rc2"  // non-Microsoft Visual C++ edited resources
 #include "afxres.rc"         // Standard components
